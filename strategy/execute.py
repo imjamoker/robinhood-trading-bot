@@ -18,18 +18,15 @@ def _login():
     import robin_stocks.robinhood as r
     import base64, pickle, tempfile
 
-    # Preferred: use pre-generated device token (no MFA needed)
+    # Preferred: use pre-generated OAuth token bundle (no MFA needed)
     rh_token_b64 = os.environ.get("RH_TOKEN", "")
     if rh_token_b64:
-        token_data = base64.b64decode(rh_token_b64)
-        token_dir = os.path.expanduser("~/.tokens")
-        os.makedirs(token_dir, exist_ok=True)
-        token_path = os.path.join(token_dir, "robinhood.pickle")
-        with open(token_path, "wb") as f:
-            f.write(token_data)
-        # Login using stored session (no MFA prompt)
-        r.login(os.environ["RH_USERNAME"], os.environ["RH_PASSWORD"],
-                store_session=True, expiresIn=86400*365)
+        import base64, json as _json
+        bundle = _json.loads(base64.b64decode(rh_token_b64).decode())
+        # Inject token directly into robin_stocks session
+        r.helper.set_login_state(True)
+        r.helper.update_session("Authorization", f"Bearer {bundle['access_token']}")
+        r.helper.set_output(bundle, output_format="data")
         return r
 
     # Fallback: TOTP-based login
