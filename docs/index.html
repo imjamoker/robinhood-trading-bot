@@ -286,7 +286,11 @@ let polling = false;
 function triggerRun() {
   const btn = document.getElementById('run-btn');
   btn.disabled = true; btn.textContent = '⏳ Starting…';
-  fetch('/api/run', {method:'POST', headers:{'X-Token': TOKEN}})
+  fetch('/api/run', {
+    method:'POST',
+    headers:{'X-Token': TOKEN, 'Content-Type': 'application/json'},
+    body: JSON.stringify({token: TOKEN})
+  })
     .then(r => r.json())
     .then(d => {
       if (d.error) { btn.disabled = false; btn.textContent = '▶ Run Now'; alert(d.error); return; }
