@@ -70,6 +70,8 @@ else
 fi
 
 # ── Step 4: Push updated logs to GitHub (dashboard updates automatically) ─────
+cp logs/latest_signals.json docs/signals.json 2>/dev/null
+cp logs/trade_log.md docs/trade_log.md 2>/dev/null
 git add logs/trade_log.md logs/latest_signals.json docs/ 2>/dev/null
 git diff --staged --quiet 2>/dev/null || \
     git commit -m "chore: trading cycle $TS" 2>/dev/null && \
