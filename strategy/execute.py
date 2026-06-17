@@ -160,6 +160,46 @@ def execute(signals_path: str = "logs/latest_signals.json",
 
     print(f"\nDone. Remaining buying power: ${buying_power:.2f}")
 
+    # Write positions snapshot for dashboard
+    _write_positions(r, buying_power, actions, trade_log_path)
+
+
+def _write_positions(r, buying_power: float, actions: list, trade_log_path: str):
+    """Write docs/positions.json for the dashboard."""
+    import os
+    try:
+        held = _positions(r)
+        pos_list = []
+        for ticker, p in held.items():
+            price = _current_price(r, ticker)
+            avg = p["avg_cost"]
+            qty = p["quantity"]
+            pnl_pct = ((price - avg) / avg * 100) if avg > 0 else 0
+            pos_list.append({
+                "ticker": ticker,
+                "quantity": round(qty, 6),
+                "avg_cost": round(avg, 4),
+                "current_price": round(price, 4),
+                "pnl_pct": round(pnl_pct, 2),
+                "value": round(price * qty, 2),
+                "stop_loss": round(avg * 0.95, 4),
+                "take_profit": round(avg * 1.10, 4),
+            })
+
+        snapshot = {
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "buying_power": round(buying_power, 2),
+            "positions": pos_list,
+            "last_actions": actions[-10:],
+        }
+
+        os.makedirs("docs", exist_ok=True)
+        with open("docs/positions.json", "w") as f:
+            json.dump(snapshot, f, indent=2)
+        print("Positions snapshot → docs/positions.json")
+    except Exception as e:
+        print(f"[WARN] Could not write positions.json: {e}")
+
 
 if __name__ == "__main__":
     import sys
