@@ -37,13 +37,6 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
 
-      - name: Execute trades
-        run: python -m strategy.execute
-        env:
-          RH_USERNAME: ${{ secrets.RH_USERNAME }}
-          RH_PASSWORD: ${{ secrets.RH_PASSWORD }}
-          RH_TOKEN:    ${{ secrets.RH_TOKEN }}
-
       - name: Copy signals to dashboard
         run: |
           cp logs/latest_signals.json docs/signals.json
