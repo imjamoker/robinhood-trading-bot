@@ -17,3 +17,9 @@ logs/cron.log
 # OS
 .DS_Store
 .robinhood_token
+
+# Binaries and runtime files
+cloudflared
+logs/dashboard.log
+logs/tunnel.log
+logs/tunnel_url.txt
