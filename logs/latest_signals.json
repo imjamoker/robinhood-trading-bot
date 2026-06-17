@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-17T20:39:50.133224+00:00",
+  "timestamp": "2026-06-17T21:15:45.638392+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,10 +66,10 @@
       "ticker": "UHS",
       "price": 141.25999450683594,
       "net_buy_d2": 17796,
-      "net_buy_d3": -569633,
-      "obv_slope": -90595,
+      "net_buy_d3": -775069,
+      "obv_slope": -135262,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.02M \u2192 -0.57M | OBV -0.1M/day"
+      "reason": "Net buy reversed: 0.02M \u2192 -0.78M | OBV -0.1M/day"
     },
     {
       "ticker": "WST",
@@ -84,8 +84,8 @@
       "ticker": "LEN",
       "price": 86.4800033569336,
       "net_buy_d2": -169752,
-      "net_buy_d3": -3505380,
-      "obv_slope": -2536233,
+      "net_buy_d3": -3508075,
+      "obv_slope": -2536897,
       "score": 0.0,
       "reason": "Net buy reversed: -0.17M \u2192 -3.51M | OBV -2.5M/day"
     },
@@ -120,10 +120,10 @@
       "ticker": "PHM",
       "price": 121.87999725341797,
       "net_buy_d2": -148057,
-      "net_buy_d3": -1644158,
-      "obv_slope": -697382,
+      "net_buy_d3": -1663455,
+      "obv_slope": -701633,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.15M \u2192 -1.64M | OBV -0.7M/day"
+      "reason": "Net buy reversed: -0.15M \u2192 -1.66M | OBV -0.7M/day"
     },
     {
       "ticker": "SJM",
@@ -138,19 +138,19 @@
       "ticker": "IQV",
       "price": 170.6699981689453,
       "net_buy_d2": 167245,
-      "net_buy_d3": -1134745,
-      "obv_slope": -274151,
+      "net_buy_d3": -1393845,
+      "obv_slope": -343140,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.17M \u2192 -1.13M | OBV -0.3M/day"
+      "reason": "Net buy reversed: 0.17M \u2192 -1.39M | OBV -0.3M/day"
     },
     {
-      "ticker": "CHRW",
-      "price": 185.1999969482422,
-      "net_buy_d2": 133200,
-      "net_buy_d3": -749617,
-      "obv_slope": -668868,
+      "ticker": "BA",
+      "price": 225.6300048828125,
+      "net_buy_d2": -459528,
+      "net_buy_d3": -4220517,
+      "obv_slope": -624028,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.13M \u2192 -0.75M | OBV -0.7M/day"
+      "reason": "Net buy reversed: -0.46M \u2192 -4.22M | OBV -0.6M/day"
     }
   ]
 }
