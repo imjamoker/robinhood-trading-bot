@@ -1,0 +1,58 @@
+name: Automated Trading
+
+on:
+  schedule:
+    # Every hour Mon-Fri 10am-3pm ET (14:00-19:00 UTC)
+    - cron: '0 14 * * 1-5'
+    - cron: '0 15 * * 1-5'
+    - cron: '0 16 * * 1-5'
+    - cron: '0 17 * * 1-5'
+    - cron: '0 18 * * 1-5'
+    - cron: '0 19 * * 1-5'
+  workflow_dispatch:   # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write      # needed to push updated signal/log files
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate signals (S&P 500 scan)
+        run: python -m strategy.run
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Execute trades
+        run: python -m strategy.execute
+        env:
+          RH_USERNAME:    ${{ secrets.RH_USERNAME }}
+          RH_PASSWORD:    ${{ secrets.RH_PASSWORD }}
+          RH_TOTP_SECRET: ${{ secrets.RH_TOTP_SECRET }}
+
+      - name: Copy signals to dashboard
+        run: |
+          cp logs/latest_signals.json docs/signals.json
+          cp logs/trade_log.md docs/trade_log.md
+
+      - name: Commit and push results
+        run: |
+          git config user.name  "trading-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add logs/ docs/
+          git diff --staged --quiet || git commit -m "chore: trading cycle $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

@@ -1,0 +1,16 @@
+# Never commit credentials
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Local logs (GitHub Actions writes its own)
+logs/auto_run.log
+logs/cron.log
+
+# OS
+.DS_Store
