@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-18T22:01:49.433065+00:00",
+  "timestamp": "2026-06-19T16:33:58.109224+00:00",
   "mode": "full_universe",
   "universe_size": 503,
-  "market_open": false,
+  "market_open": true,
   "rsi_signals": [
     {
       "ticker": "SPY",
@@ -66,91 +66,91 @@
       "ticker": "ACGL",
       "price": 91.18000030517578,
       "net_buy_d2": -47143,
-      "net_buy_d3": -3851444,
-      "obv_slope": -1577282,
+      "net_buy_d3": -3922602,
+      "obv_slope": -1604660,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.05M \u2192 -3.85M | OBV -1.6M/day"
-    },
-    {
-      "ticker": "LIN",
-      "price": 512.1500244140625,
-      "net_buy_d2": 176141,
-      "net_buy_d3": -3837131,
-      "obv_slope": -2982155,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.18M \u2192 -3.84M | OBV -3.0M/day"
+      "reason": "Net buy reversed: -0.05M \u2192 -3.92M | OBV -1.6M/day"
     },
     {
       "ticker": "STLD",
       "price": 249.91000366210938,
       "net_buy_d2": -136235,
-      "net_buy_d3": -3113152,
-      "obv_slope": -1138386,
+      "net_buy_d3": -3318493,
+      "obv_slope": -1200140,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.14M \u2192 -3.11M | OBV -1.1M/day"
+      "reason": "Net buy reversed: -0.14M \u2192 -3.32M | OBV -1.2M/day"
+    },
+    {
+      "ticker": "LIN",
+      "price": 512.1500244140625,
+      "net_buy_d2": 176141,
+      "net_buy_d3": -3854675,
+      "obv_slope": -2985300,
+      "score": 0.0,
+      "reason": "Net buy reversed: 0.18M \u2192 -3.85M | OBV -3.0M/day"
     },
     {
       "ticker": "SNPS",
       "price": 455.510009765625,
       "net_buy_d2": -72615,
-      "net_buy_d3": -1545866,
-      "obv_slope": -47614,
+      "net_buy_d3": -1730625,
+      "obv_slope": -115820,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.07M \u2192 -1.55M | OBV -0.0M/day"
+      "reason": "Net buy reversed: -0.07M \u2192 -1.73M | OBV -0.1M/day"
     },
     {
-      "ticker": "CINF",
-      "price": 170.1999969482422,
-      "net_buy_d2": -159395,
-      "net_buy_d3": -1719494,
-      "obv_slope": -471484,
+      "ticker": "EG",
+      "price": 335.6300048828125,
+      "net_buy_d2": -17748,
+      "net_buy_d3": -408352,
+      "obv_slope": -576450,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.16M \u2192 -1.72M | OBV -0.5M/day"
+      "reason": "Net buy reversed: -0.02M \u2192 -0.41M | OBV -0.6M/day"
     },
     {
       "ticker": "FDXF",
       "price": 162.85000610351562,
       "net_buy_d2": 45934,
-      "net_buy_d3": -331007,
-      "obv_slope": -1351322,
+      "net_buy_d3": -802836,
+      "obv_slope": -1009680,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.05M \u2192 -0.33M | OBV -1.4M/day"
-    },
-    {
-      "ticker": "PTC",
-      "price": 114.75,
-      "net_buy_d2": 152492,
-      "net_buy_d3": -1070490,
-      "obv_slope": -533173,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.15M \u2192 -1.07M | OBV -0.5M/day"
-    },
-    {
-      "ticker": "ABBV",
-      "price": 216.49000549316406,
-      "net_buy_d2": 1108002,
-      "net_buy_d3": -6471664,
-      "obv_slope": -2868519,
-      "score": 0.0,
-      "reason": "Net buy reversed: 1.11M \u2192 -6.47M | OBV -2.9M/day"
-    },
-    {
-      "ticker": "COP",
-      "price": 107.73999786376953,
-      "net_buy_d2": 2068006,
-      "net_buy_d3": -11062795,
-      "obv_slope": -11307781,
-      "score": 0.0,
-      "reason": "Net buy reversed: 2.07M \u2192 -11.06M | OBV -11.3M/day"
+      "reason": "Net buy reversed: 0.05M \u2192 -0.80M | OBV -1.0M/day"
     },
     {
       "ticker": "CHD",
       "price": 95.62999725341797,
       "net_buy_d2": -315082,
-      "net_buy_d3": -2187507,
-      "obv_slope": -224376,
+      "net_buy_d3": -5329574,
+      "obv_slope": -870440,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.32M \u2192 -2.19M | OBV -0.2M/day"
+      "reason": "Net buy reversed: -0.32M \u2192 -5.33M | OBV -0.9M/day"
+    },
+    {
+      "ticker": "VZ",
+      "price": 45.369998931884766,
+      "net_buy_d2": -3881906,
+      "net_buy_d3": -64406423,
+      "obv_slope": -34355750,
+      "score": 0.0,
+      "reason": "Net buy reversed: -3.88M \u2192 -64.41M | OBV -34.4M/day"
+    },
+    {
+      "ticker": "CINF",
+      "price": 170.1999969482422,
+      "net_buy_d2": -159395,
+      "net_buy_d3": -1790939,
+      "obv_slope": -506890,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.16M \u2192 -1.79M | OBV -0.5M/day"
+    },
+    {
+      "ticker": "OMC",
+      "price": 71.3499984741211,
+      "net_buy_d2": -1918842,
+      "net_buy_d3": -19220045,
+      "obv_slope": -5718030,
+      "score": 0.0,
+      "reason": "Net buy reversed: -1.92M \u2192 -19.22M | OBV -5.7M/day"
     }
   ]
 }
