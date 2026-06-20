@@ -1,13 +1,13 @@
-"""Trading strategy configuration for a $100 Robinhood agentic account."""
+"""Trading strategy configuration for a $50 Robinhood agentic account."""
 
 # ── Capital & position sizing ─────────────────────────────────────────────────
-TOTAL_CAPITAL = 100.0          # USD funded in agentic account
+TOTAL_CAPITAL = 50.0          # USD funded in agentic account
 CASH_BUFFER = 10.0             # always keep this much uninvested
-TRADEABLE_CAPITAL = TOTAL_CAPITAL - CASH_BUFFER  # $90
+TRADEABLE_CAPITAL = TOTAL_CAPITAL - CASH_BUFFER  # $40 available for trading
 
-MAX_POSITION_SIZE = 20.0       # max dollars per position
+MAX_POSITION_SIZE = 15.0       # max dollars per position
 MIN_TRADE_SIZE = 5.0           # don't place orders smaller than this
-MAX_OPEN_POSITIONS = 4         # max concurrent holdings
+MAX_OPEN_POSITIONS = 2         # max concurrent holdings
 
 # ── Watchlist ─────────────────────────────────────────────────────────────────
 # Liquid, fractional-share eligible; blend of ETFs + blue-chips

@@ -31,14 +31,18 @@ Do the following in order:
 1. Run: cat logs/latest_signals.json
 2. If market_open is false: print "MARKET_CLOSED" and stop.
 3. Use the robinhood-trading MCP tools to get buying power and open positions.
+Maximum buys per run: 2.
+Keep a running count of buys placed.
+Once 2 buys have been executed, do not place any additional buy orders.
 4. For each entry in net_buy_buy_signals where trend_days >= 3:
    - Skip if you already hold that ticker
    - Skip if buying power after trade would be below $10
-   - Place a buy order for $20 (if score > 30) or $15 (otherwise)
+   - Place a buy order for $15 (if score > 30) or $10 (otherwise)
    - Print: BOUGHT <ticker> $<amount> @ $<price>
 5. For each entry in rsi_signals where action=BUY and confidence >= 2:
+Skip all RSI buys if the maximum buys per run has already been reached.
    - Same skip rules as above
-   - Place a buy order for $15
+   - Place a buy order for $10
    - Print: BOUGHT <ticker> $<amount> @ $<price>
 6. For each position you hold, check if net_buy_sell_signals or rsi_signals has action=SELL:
    - Sell the full position
