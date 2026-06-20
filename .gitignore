@@ -23,3 +23,6 @@ cloudflared
 logs/dashboard.log
 logs/tunnel.log
 logs/tunnel_url.txt
+
+venv/
+.env
