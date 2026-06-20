@@ -36,3 +36,5 @@ Current safety limits:
 * Add better logging and reporting
 * Evaluate trading performance over time
 * Continue learning automation and software development
+
+#Something about this makes me want to get 10's of millions of dollars and not tell a single soul - 6/20/2026
