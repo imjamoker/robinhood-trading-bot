@@ -60,7 +60,7 @@ def _obv(df: pd.DataFrame) -> pd.Series:
 def _consecutive_increasing(series: pd.Series, n: int = 5) -> int:
     vals = series.iloc[-n:].values
     count = 0
-    for i in range(1, len(vals)):
+    for i in range(len(vals) - 1, 0, -1):
         if vals[i] > vals[i - 1]:
             count += 1
         else:

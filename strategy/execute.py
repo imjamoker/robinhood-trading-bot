@@ -12,6 +12,7 @@ import os
 import json
 import time
 from datetime import datetime, timezone
+from .config import CASH_BUFFER, MAX_OPEN_POSITIONS, MAX_POSITION_SIZE, MIN_TRADE_SIZE
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
 def _login():
@@ -99,7 +100,6 @@ def execute(signals_path: str = "logs/latest_signals.json",
 
     buying_power = _buying_power(r)
     held = _positions(r)
-    CASH_BUFFER = 10.0
     actions = []
 
     print(f"Buying power: ${buying_power:.2f} | Held: {list(held.keys())}")
@@ -141,6 +141,13 @@ def execute(signals_path: str = "logs/latest_signals.json",
         nonlocal buying_power
         if ticker in held:
             print(f"  Skip {ticker} — already held")
+            return
+        if len(held) >= MAX_OPEN_POSITIONS:
+            print(f"  Skip {ticker} - max open positions reached ({MAX_OPEN_POSITIONS})")
+            return
+        dollar_amount = min(dollar_amount, MAX_POSITION_SIZE)
+        if dollar_amount < MIN_TRADE_SIZE:
+            print(f"  Skip {ticker} - trade below minimum size (${MIN_TRADE_SIZE:.2f})")
             return
         if buying_power - dollar_amount < CASH_BUFFER:
             print(f"  Skip {ticker} — not enough buying power (${buying_power:.2f})")

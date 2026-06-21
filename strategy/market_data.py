@@ -3,8 +3,14 @@
 import yfinance as yf
 import pandas as pd
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from typing import Optional
 from .config import DATA_PERIOD, DATA_INTERVAL, WATCHLIST
+
+try:
+    import exchange_calendars as xcals
+except ImportError:  # pragma: no cover - optional runtime dependency
+    xcals = None
 
 
 def fetch_ohlcv(ticker: str, period: str = DATA_PERIOD, interval: str = DATA_INTERVAL) -> pd.DataFrame:
@@ -30,14 +36,14 @@ def fetch_all_watchlist(watchlist: list[str] = WATCHLIST) -> dict[str, pd.DataFr
 
 
 def is_market_open() -> bool:
-    """True if NYSE is currently open (naive check, no holiday calendar)."""
+    """True if NYSE is currently open."""
     now = datetime.now(timezone.utc)
-    # NYSE is UTC-5 (EST) or UTC-4 (EDT)
-    from datetime import timedelta
-    # Use UTC-4 (EDT) as approximation for May–Nov, UTC-5 otherwise
-    month = now.month
-    offset = -4 if 3 <= month <= 11 else -5
-    local = now + timedelta(hours=offset)
+    if xcals is not None:
+        calendar = xcals.get_calendar("XNYS")
+        return bool(calendar.is_open_on_minute(pd.Timestamp(now)))
+
+    # Fallback uses timezone rules but does not know holidays or early closes.
+    local = now.astimezone(ZoneInfo("America/New_York"))
     if local.weekday() >= 5:
         return False
     open_time = local.replace(hour=9, minute=30, second=0, microsecond=0)

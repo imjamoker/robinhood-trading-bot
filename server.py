@@ -3,6 +3,7 @@
 
 import os, subprocess, json, secrets, threading
 from datetime import datetime
+from functools import wraps
 from flask import Flask, request, jsonify, send_from_directory, Response
 
 BASE   = os.path.dirname(os.path.abspath(__file__))
@@ -24,10 +25,7 @@ def get_token():
 
 def authorized():
     token = get_token()
-    # Accept token from header, query param, or JSON body
     if request.headers.get('X-Token') == token:
-        return True
-    if request.args.get('token') == token:
         return True
     try:
         body = request.get_json(silent=True) or {}
@@ -38,6 +36,14 @@ def authorized():
     return False
 
 # ── Static dashboard ──────────────────────────────────────────────────────────
+
+def require_auth(fn):
+    @wraps(fn)
+    def wrapper(*args, **kwargs):
+        if not authorized():
+            return jsonify({'error': 'unauthorized'}), 401
+        return fn(*args, **kwargs)
+    return wrapper
 
 @app.route('/')
 def index():
@@ -56,6 +62,7 @@ def cors(resp):
     return resp
 
 @app.route('/api/signals')
+@require_auth
 def signals():
     path = os.path.join(LOGS, 'latest_signals.json')
     if not os.path.exists(path):
@@ -63,6 +70,7 @@ def signals():
     return Response(open(path).read(), mimetype='application/json')
 
 @app.route('/api/positions')
+@require_auth
 def positions():
     path = os.path.join(DOCS, 'positions.json')
     if not os.path.exists(path):
@@ -70,6 +78,7 @@ def positions():
     return Response(open(path).read(), mimetype='application/json')
 
 @app.route('/api/tradelog')
+@require_auth
 def tradelog():
     path = os.path.join(LOGS, 'trade_log.md')
     if not os.path.exists(path):
@@ -79,6 +88,7 @@ def tradelog():
 _run_state = {'status': 'idle', 'started': None, 'output': ''}
 
 @app.route('/api/status')
+@require_auth
 def status():
     log = os.path.join(LOGS, 'auto_run.log')
     last_line = ''
@@ -88,6 +98,7 @@ def status():
     return jsonify({**_run_state, 'last_log_line': last_line})
 
 @app.route('/api/tunnel')
+@require_auth
 def tunnel():
     path = os.path.join(LOGS, 'tunnel_url.txt')
     if os.path.exists(path):
@@ -110,7 +121,7 @@ def run():
         _run_state['output'] = ''
         try:
             result = subprocess.run(
-                ['/bin/bash', os.path.join(BASE, 'auto_trade.sh')],
+                ['/bin/bash', os.path.join(BASE, 'run_trade.sh')],
                 capture_output=True, text=True, timeout=300
             )
             _run_state['output'] = result.stdout + result.stderr
