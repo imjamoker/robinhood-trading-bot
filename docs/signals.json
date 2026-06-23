@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-23T20:58:34.368533+00:00",
+  "timestamp": "2026-06-23T21:47:14.359078+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -77,9 +77,9 @@
       "price": 121.55000305175781,
       "net_buy_d1": -2570282,
       "net_buy_d2": -657698,
-      "net_buy_d3": 4751354,
+      "net_buy_d3": 4754814,
       "trend_days": 4,
-      "obv_slope": 4142127,
+      "obv_slope": 4142912,
       "score": 44.14,
       "reason": "Net buy \u2191 4d streak: -2.57M \u2192 -0.66M \u2192 4.75M | OBV +4.1M/day"
     },
@@ -88,11 +88,11 @@
       "price": 184.57000732421875,
       "net_buy_d1": 134927,
       "net_buy_d2": 891803,
-      "net_buy_d3": 4150870,
+      "net_buy_d3": 5047673,
       "trend_days": 4,
-      "obv_slope": 1871857,
-      "score": 41.87,
-      "reason": "Net buy \u2191 4d streak: 0.13M \u2192 0.89M \u2192 4.15M | OBV +1.9M/day"
+      "obv_slope": 2135565,
+      "score": 42.14,
+      "reason": "Net buy \u2191 4d streak: 0.13M \u2192 0.89M \u2192 5.05M | OBV +2.1M/day"
     },
     {
       "ticker": "USB",
@@ -143,11 +143,11 @@
       "price": 49.40999984741211,
       "net_buy_d1": -5175169,
       "net_buy_d2": 801741,
-      "net_buy_d3": 1579359,
+      "net_buy_d3": 1944600,
       "trend_days": 3,
-      "obv_slope": 4905209,
-      "score": 34.91,
-      "reason": "Net buy \u2191 3d streak: -5.18M \u2192 0.80M \u2192 1.58M | OBV +4.9M/day"
+      "obv_slope": 5114844,
+      "score": 35.11,
+      "reason": "Net buy \u2191 3d streak: -5.18M \u2192 0.80M \u2192 1.94M | OBV +5.1M/day"
     },
     {
       "ticker": "FITB",
@@ -194,15 +194,26 @@
       "reason": "Net buy \u2191 3d streak: -0.35M \u2192 -0.33M \u2192 0.59M | OBV +1.3M/day"
     },
     {
+      "ticker": "IRM",
+      "price": 133.05999755859375,
+      "net_buy_d1": -267034,
+      "net_buy_d2": 955788,
+      "net_buy_d3": 1012380,
+      "trend_days": 3,
+      "obv_slope": 1158671,
+      "score": 31.16,
+      "reason": "Net buy \u2191 3d streak: -0.27M \u2192 0.96M \u2192 1.01M | OBV +1.2M/day"
+    },
+    {
       "ticker": "EXPE",
       "price": 245.07000732421875,
       "net_buy_d1": -498910,
       "net_buy_d2": 170404,
-      "net_buy_d3": 1378296,
+      "net_buy_d3": 1453016,
       "trend_days": 3,
-      "obv_slope": 516789,
-      "score": 30.52,
-      "reason": "Net buy \u2191 3d streak: -0.50M \u2192 0.17M \u2192 1.38M | OBV +0.5M/day"
+      "obv_slope": 534073,
+      "score": 30.53,
+      "reason": "Net buy \u2191 3d streak: -0.50M \u2192 0.17M \u2192 1.45M | OBV +0.5M/day"
     },
     {
       "ticker": "CBRE",
@@ -259,8 +270,8 @@
       "ticker": "PTC",
       "price": 112.33000183105469,
       "net_buy_d2": 161190,
-      "net_buy_d3": -1761552,
-      "obv_slope": -1607601,
+      "net_buy_d3": -1761912,
+      "obv_slope": -1607681,
       "score": 0.0,
       "reason": "Net buy reversed: 0.16M \u2192 -1.76M | OBV -1.6M/day"
     },
@@ -268,10 +279,19 @@
       "ticker": "BLK",
       "price": 1015.3300170898438,
       "net_buy_d2": -102290,
-      "net_buy_d3": -884122,
-      "obv_slope": -159641,
+      "net_buy_d3": -1011045,
+      "obv_slope": -196034,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.10M \u2192 -0.88M | OBV -0.2M/day"
+      "reason": "Net buy reversed: -0.10M \u2192 -1.01M | OBV -0.2M/day"
+    },
+    {
+      "ticker": "OTIS",
+      "price": 71.75,
+      "net_buy_d2": -365505,
+      "net_buy_d3": -3340461,
+      "obv_slope": -986402,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.37M \u2192 -3.34M | OBV -1.0M/day"
     },
     {
       "ticker": "FDS",
@@ -295,10 +315,10 @@
       "ticker": "KKR",
       "price": 93.5,
       "net_buy_d2": 610102,
-      "net_buy_d3": -2877042,
-      "obv_slope": -4765703,
+      "net_buy_d3": -3427577,
+      "obv_slope": -4972030,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.61M \u2192 -2.88M | OBV -4.8M/day"
+      "reason": "Net buy reversed: 0.61M \u2192 -3.43M | OBV -5.0M/day"
     },
     {
       "ticker": "AMP",
@@ -308,15 +328,6 @@
       "obv_slope": -205418,
       "score": 0.0,
       "reason": "Net buy reversed: 0.10M \u2192 -0.45M | OBV -0.2M/day"
-    },
-    {
-      "ticker": "OTIS",
-      "price": 71.75,
-      "net_buy_d2": -365505,
-      "net_buy_d3": -2294394,
-      "obv_slope": -777189,
-      "score": 0.0,
-      "reason": "Net buy reversed: -0.37M \u2192 -2.29M | OBV -0.8M/day"
     }
   ]
 }
