@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-01T20:45:42.354246+00:00",
+  "timestamp": "2026-07-01T21:42:15.992739+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -62,6 +62,17 @@
   ],
   "net_buy_buy_signals": [
     {
+      "ticker": "ICE",
+      "price": 126.7300033569336,
+      "net_buy_d1": -3389709,
+      "net_buy_d2": -336429,
+      "net_buy_d3": 1065843,
+      "trend_days": 4,
+      "obv_slope": 136118,
+      "score": 40.14,
+      "reason": "Net buy \u2191 4d streak: -3.39M \u2192 -0.34M \u2192 1.07M | OBV +0.1M/day"
+    },
+    {
       "ticker": "EXPD",
       "price": 166.80999755859375,
       "net_buy_d1": 362885,
@@ -89,10 +100,10 @@
       "ticker": "IEX",
       "price": 224.9600067138672,
       "net_buy_d2": -13913,
-      "net_buy_d3": -330657,
-      "obv_slope": -334267,
+      "net_buy_d3": -568238,
+      "obv_slope": -397882,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.01M \u2192 -0.33M | OBV -0.3M/day"
+      "reason": "Net buy reversed: -0.01M \u2192 -0.57M | OBV -0.4M/day"
     },
     {
       "ticker": "TPR",
@@ -116,10 +127,19 @@
       "ticker": "LEN",
       "price": 87.05999755859375,
       "net_buy_d2": -172211,
-      "net_buy_d3": -1830785,
-      "obv_slope": -2480699,
+      "net_buy_d3": -2297963,
+      "obv_slope": -2589752,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.17M \u2192 -1.83M | OBV -2.5M/day"
+      "reason": "Net buy reversed: -0.17M \u2192 -2.30M | OBV -2.6M/day"
+    },
+    {
+      "ticker": "ADI",
+      "price": 388.9800109863281,
+      "net_buy_d2": 477674,
+      "net_buy_d3": -4353926,
+      "obv_slope": -137688,
+      "score": 0.0,
+      "reason": "Net buy reversed: 0.48M \u2192 -4.35M | OBV -0.1M/day"
     },
     {
       "ticker": "DLTR",
@@ -131,15 +151,6 @@
       "reason": "Net buy reversed: 0.32M \u2192 -2.69M | OBV -2.3M/day"
     },
     {
-      "ticker": "ADI",
-      "price": 388.9800109863281,
-      "net_buy_d2": 477674,
-      "net_buy_d3": -3980080,
-      "obv_slope": -40067,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.48M \u2192 -3.98M | OBV -0.0M/day"
-    },
-    {
       "ticker": "EMR",
       "price": 139.52000427246094,
       "net_buy_d2": 273007,
@@ -149,22 +160,22 @@
       "reason": "Net buy reversed: 0.27M \u2192 -2.07M | OBV -1.4M/day"
     },
     {
-      "ticker": "FSLR",
-      "price": 232.0800018310547,
-      "net_buy_d2": -140166,
-      "net_buy_d3": -1123475,
-      "obv_slope": -584534,
-      "score": 0.0,
-      "reason": "Net buy reversed: -0.14M \u2192 -1.12M | OBV -0.6M/day"
-    },
-    {
       "ticker": "HWM",
       "price": 267.4100036621094,
       "net_buy_d2": -214577,
-      "net_buy_d3": -1605529,
-      "obv_slope": -4444748,
+      "net_buy_d3": -1994016,
+      "obv_slope": -4552234,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.21M \u2192 -1.61M | OBV -4.4M/day"
+      "reason": "Net buy reversed: -0.21M \u2192 -1.99M | OBV -4.6M/day"
+    },
+    {
+      "ticker": "FSLR",
+      "price": 232.0800018310547,
+      "net_buy_d2": -140166,
+      "net_buy_d3": -1170920,
+      "obv_slope": -595995,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.14M \u2192 -1.17M | OBV -0.6M/day"
     },
     {
       "ticker": "OTIS",
