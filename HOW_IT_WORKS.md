@@ -1,182 +1,194 @@
-# Robinhood Agentic Trading — How It Works
+# Robinhood Trading Bot - How It Works
 
-## What This Does
-An AI trading agent (Claude) monitors 5 stocks every hour during market hours.
-When the indicators say "buy" or "sell", it acts automatically via your Robinhood agentic account.
-Your $100 is in a **dedicated sub-account** — your main Robinhood portfolio is untouched.
+## What This Project Does
 
----
+This project generates trading signals for a small Robinhood trading account using two indicator-based strategies:
 
-## Commands
+- RSI + VWAP + EMA momentum signals
+- A 3-day net-buy trend signal
 
-| What you want | Command |
-|---------------|---------|
-| Run once manually | `python3 -m strategy.run` |
-| Watch auto-run logs | `tail -f logs/auto_run.log` |
-| See latest signals | `cat logs/latest_signals.json` |
-| See trade history | `cat logs/trade_log.md` |
+The Python strategy code is the core of the bot and is the part that is intended to run on both Windows and Linux.
 
-The strategy **runs automatically every hour on weekdays** via cron — you don't need to do anything after setup.
+## Platform Notes
 
----
+### Works on both Windows and Linux
 
-## Schedule
-- Runs: **Mon–Fri, 10am–3pm ET** (avoids volatile open/close windows)
-- Frequency: **every hour**
-- Outside those hours: signals are calculated but no trades are placed
+- Installing Python dependencies
+- Running the strategy manually
+- Reading logs and signal output
+- Editing configuration in `strategy/config.py`
 
----
+### Linux support
 
-## The Strategy (Plain English)
+Linux is the best fit for unattended or always-on use.
 
-Two strategies run together. When both agree on a trade, it's a **STRONG** signal. When only one fires, it's **MODERATE**.
+- You can run the strategy manually from a shell
+- You can automate recurring runs with `cron` or `systemd`
+- The included `.sh` scripts are Unix-style and are meant for Linux or other Unix-like environments
+
+### Windows support
+
+Windows supports the Python strategy, but the included automation scripts are not native Windows scripts.
+
+- Run the strategy with Python from PowerShell or Command Prompt
+- Use Task Scheduler if you want scheduled runs on Windows
+- If you want to use the included `.sh` scripts, run them through Git Bash or WSL
+
+## Common Commands
+
+### Run once manually
+
+Windows:
+
+```powershell
+python -m strategy.run
+```
+
+Linux:
+
+```bash
+python3 -m strategy.run
+```
+
+### View latest signals
+
+Windows:
+
+```powershell
+Get-Content logs/latest_signals.json
+```
+
+Linux:
+
+```bash
+cat logs/latest_signals.json
+```
+
+### View trade history
+
+Windows:
+
+```powershell
+Get-Content logs/trade_log.md
+```
+
+Linux:
+
+```bash
+cat logs/trade_log.md
+```
+
+### Follow the automation log
+
+Windows:
+
+```powershell
+Get-Content logs/auto_run.log -Wait
+```
+
+Linux:
+
+```bash
+tail -f logs/auto_run.log
+```
+
+## How the Strategy Decides
+
+Two strategies run side by side. If both agree, that is treated as a stronger signal than either one alone.
 
 ### Watchlist
-`SPY` · `QQQ` · `AAPL` · `MSFT` · `NVDA`
 
----
+`SPY`, `QQQ`, `AAPL`, `MSFT`, `NVDA`
 
-### Strategy 1 — RSI + VWAP + EMA (intraday momentum)
+### Strategy 1: RSI + VWAP + EMA
 
-#### BUY — at least 2 of these 3 must be true:
-1. **RSI < 35** — stock is oversold (beaten down, likely to bounce)
-2. **Price below VWAP** — trading cheaper than today's average price
-3. **EMA bullish crossover** — short-term momentum turning upward
+Buy when at least 2 of these are true:
 
-#### SELL — at least 2 of these 3 must be true:
-1. **RSI > 65** — stock is overbought (likely to pull back)
-2. **Price above VWAP** — trading above today's average price
-3. **EMA bearish crossover** — short-term momentum turning downward
+1. RSI is below the oversold threshold
+2. Price is below VWAP
+3. A bullish EMA crossover appears
 
----
+Sell when at least 2 of these are true:
 
-### Strategy 2 — 3-Day Net Buy Trend (new)
+1. RSI is above the overbought threshold
+2. Price is above VWAP
+3. A bearish EMA crossover appears
 
-This tracks whether **buyers are consistently winning** over sellers for 3 days in a row.
+### Strategy 2: 3-Day Net Buy Trend
 
-**How net buy is calculated per day:**
-- Every candle: estimate how much of the day's volume was buying vs selling
-- `Net Buy = (buy volume) − (sell volume)` — approximated from price position in the day's range
-- Also tracks **OBV (On-Balance Volume)** — a cumulative running total of buying pressure
+This looks for buying pressure that strengthens across multiple days.
 
-#### BUY — triggered on Day 3 when ALL of these are true:
-| Check | Meaning |
-|-------|---------|
-| Net buy Day 1 < Day 2 < Day 3 | Buyers increasing each day for 3 days |
-| Streak ≥ 3 days | Confirmed trend, not a one-day spike |
-| OBV slope rising (↑) | Overall buying pressure building up |
+Buy when all of these are true:
 
-#### SELL — triggered when:
-| Check | Meaning |
-|-------|---------|
-| Net buy reverses (Day 2 > Day 3) | Buyers stepping back |
-| OBV slope falling (↓) | Momentum exhausted |
+1. Net buy increases across three consecutive days
+2. The trend has lasted at least three days
+3. OBV slope is rising
 
-This is your **"sell on the next high day"** rule — when net buy reverses after a run-up, it typically coincides with a short-term price peak.
+Sell when both of these are true:
 
----
+1. Net buy reverses
+2. OBV slope is falling
 
-### Signal Strength
+## Risk Limits
 
-| Both strategies say BUY | → **STRONG BUY** — invest up to $20 |
-|--------------------------|--------------------------------------|
-| Only one strategy says BUY | → **MODERATE BUY** — invest up to $15 |
-| Either strategy says SELL on a held position | → **SELL** immediately |
+Current repo defaults are intended to stay small and controlled:
 
----
+- Small account size
+- Cash buffer left unspent
+- Capped position sizes
+- Limited number of open positions
+- Stop-loss and take-profit exits
 
-### Automatic exits (no signal needed)
-| Condition | Action |
-|-----------|--------|
-| Price drops 5% from your entry | Sell — stop-loss triggered |
-| Price rises 10% from your entry | Sell — take-profit hit |
+Check `strategy/config.py` for the exact values currently active in this branch.
 
----
+## Automation Notes
 
-## Money Rules (Hard Limits)
+This repo includes shell scripts such as `trade.sh`, `setup.sh`, `install.sh`, and `auto_trade.sh`.
 
-| Rule | Value |
-|------|-------|
-| Total account | $100 |
-| Always kept as cash buffer | $10 minimum |
-| Max spent on one position | $20 |
-| Minimum order size | $5 |
-| Max open positions at once | 4 |
-| Uses margin or leverage | Never |
+- Those scripts are Bash-oriented
+- Some of them still contain older machine-specific paths or Mac-specific assumptions
+- Treat them as templates unless you have already customized them for your own machine
 
----
+For Linux, the usual next step is adapting the automation to `cron` or `systemd`.
 
-## Risk vs Reward
+For Windows, the usual next step is creating a Task Scheduler job that runs the Python command on the schedule you want.
 
-Every trade is structured as **1:2 risk/reward**:
-- You risk **$1** to potentially make **$2**
-- Stop-loss at **−5%** from entry
-- Take-profit at **+10%** from entry
+## File Guide
 
-This means even if you're only right **35% of the time**, you still come out ahead over many trades.
-
----
-
-## Realistic Returns on $100
-
-| Scenario | Monthly Return | Dollar Amount |
-|----------|---------------|---------------|
-| Conservative | +2% to +5% | $2 – $5 |
-| Moderate | +5% to +12% | $5 – $12 |
-| Optimistic | +12% to +20% | $12 – $20 |
-| Bad month | −5% to −10% | −$5 to −$10 |
-
-**6-month outlook (if conditions are favorable):** $100 → $130–$170
-
-### Honest caveats
-- Most hours the signal will be **HOLD** — this is normal and good (no bad trades)
-- Dollar gains on $100 are small; the goal is to prove the strategy before scaling up
-- No strategy guarantees profit — black swan events and gaps can override any signal
-- Past indicator patterns don't guarantee future results
-
----
-
-## File Structure
-
+```text
+robinhood-trading-bot/
+|-- HOW_IT_WORKS.md
+|-- README.md
+|-- SETUP.md
+|-- requirements.txt
+|-- trade.sh
+|-- auto_trade.sh
+|-- strategy/
+|   |-- config.py
+|   |-- indicators.py
+|   |-- market_data.py
+|   |-- net_buy.py
+|   |-- risk.py
+|   |-- run.py
+|   `-- signals.py
+`-- logs/
+    |-- latest_signals.json
+    |-- trade_log.md
+    `-- auto_run.log
 ```
-robinhood/
-├── CLAUDE.md              ← Rules Claude follows as trading agent
-├── HOW_IT_WORKS.md        ← This file
-├── requirements.txt       ← Python dependencies
-├── setup.sh               ← One-command setup script
-├── trade.sh               ← Manual one-click trade cycle
-├── strategy/
-│   ├── config.py          ← All parameters (thresholds, position sizes)
-│   ├── indicators.py      ← RSI, VWAP, EMA, ATR calculations
-│   ├── signals.py         ← Buy/sell signal logic
-│   ├── risk.py            ← Stop-loss, take-profit, position sizing
-│   ├── market_data.py     ← Fetches live data via yfinance
-│   └── run.py             ← Main runner — prints signal table
-└── logs/
-    ├── latest_signals.json ← Output from last run
-    ├── trade_log.md        ← Record of every trade placed
-    └── auto_run.log        ← Cron job output history
-```
-
----
-
-## To Adjust the Strategy
-
-Edit `strategy/config.py` to tune any parameter:
-
-```python
-RSI_OVERSOLD = 35        # lower = stricter buy signal (e.g. change to 30)
-RSI_OVERBOUGHT = 65      # higher = stricter sell signal (e.g. change to 70)
-STOP_LOSS_PCT = 0.05     # 5% stop-loss
-TAKE_PROFIT_PCT = 0.10   # 10% take-profit
-MAX_POSITION_SIZE = 20.0 # max $ per trade
-WATCHLIST = ["SPY", "QQQ", "AAPL", "MSFT", "NVDA"]
-```
-
----
 
 ## If Something Looks Wrong
-1. Check `logs/auto_run.log` for errors
-2. Run `python3 -m strategy.run` manually to see the current signal table
-3. Check your Robinhood agentic account in the app to verify positions
-4. To stop all auto-trading: `crontab -r` (removes the scheduled job)
+
+1. Run the strategy manually and read the console output
+2. Check `logs/latest_signals.json`
+3. Check `logs/auto_run.log`
+4. Review the thresholds and sizing rules in `strategy/config.py`
+
+## Git Note
+
+This file was updated to clarify the current Windows and Linux workflow:
+
+- Python strategy usage is cross-platform
+- Included automation scripts are Unix/Bash-first
+- Windows automation should use Task Scheduler or a Bash-compatible environment
+- Linux automation should use normal scheduler tooling such as `cron` or `systemd`
