@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T20:46:42.435824+00:00",
+  "timestamp": "2026-07-06T21:41:29.453768+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -62,26 +62,37 @@
   ],
   "net_buy_buy_signals": [
     {
+      "ticker": "ABT",
+      "price": 95.62999725341797,
+      "net_buy_d1": -8811387,
+      "net_buy_d2": 8754139,
+      "net_buy_d3": 11645116,
+      "trend_days": 4,
+      "obv_slope": 8251377,
+      "score": 48.25,
+      "reason": "Net buy \u2191 4d streak: -8.81M \u2192 8.75M \u2192 11.65M | OBV +8.3M/day"
+    },
+    {
       "ticker": "BA",
       "price": 234.5399932861328,
       "net_buy_d1": 229063,
       "net_buy_d2": 4228488,
-      "net_buy_d3": 5052947,
+      "net_buy_d3": 6518391,
       "trend_days": 4,
-      "obv_slope": 5568205,
-      "score": 45.57,
-      "reason": "Net buy \u2191 4d streak: 0.23M \u2192 4.23M \u2192 5.05M | OBV +5.6M/day"
+      "obv_slope": 5883903,
+      "score": 45.88,
+      "reason": "Net buy \u2191 4d streak: 0.23M \u2192 4.23M \u2192 6.52M | OBV +5.9M/day"
     },
     {
       "ticker": "ZTS",
       "price": 75.41999816894531,
       "net_buy_d1": -4583484,
       "net_buy_d2": 3343284,
-      "net_buy_d3": 4986938,
+      "net_buy_d3": 5959518,
       "trend_days": 4,
-      "obv_slope": 2725399,
-      "score": 42.73,
-      "reason": "Net buy \u2191 4d streak: -4.58M \u2192 3.34M \u2192 4.99M | OBV +2.7M/day"
+      "obv_slope": 2959909,
+      "score": 42.96,
+      "reason": "Net buy \u2191 4d streak: -4.58M \u2192 3.34M \u2192 5.96M | OBV +3.0M/day"
     },
     {
       "ticker": "WDAY",
@@ -143,9 +154,9 @@
       "price": 113.19999694824219,
       "net_buy_d1": -1388481,
       "net_buy_d2": 558902,
-      "net_buy_d3": 1470848,
+      "net_buy_d3": 1471604,
       "trend_days": 3,
-      "obv_slope": 1043427,
+      "obv_slope": 1043742,
       "score": 31.04,
       "reason": "Net buy \u2191 3d streak: -1.39M \u2192 0.56M \u2192 1.47M | OBV +1.0M/day"
     },
@@ -154,20 +165,20 @@
       "price": 175.9600067138672,
       "net_buy_d1": -266097,
       "net_buy_d2": 570440,
-      "net_buy_d3": 2106776,
+      "net_buy_d3": 2981716,
       "trend_days": 3,
-      "obv_slope": 827225,
-      "score": 30.83,
-      "reason": "Net buy \u2191 3d streak: -0.27M \u2192 0.57M \u2192 2.11M | OBV +0.8M/day"
+      "obv_slope": 1002213,
+      "score": 31.0,
+      "reason": "Net buy \u2191 3d streak: -0.27M \u2192 0.57M \u2192 2.98M | OBV +1.0M/day"
     },
     {
       "ticker": "TMO",
       "price": 517.5999755859375,
       "net_buy_d1": 317843,
       "net_buy_d2": 777535,
-      "net_buy_d3": 1148800,
+      "net_buy_d3": 1152773,
       "trend_days": 3,
-      "obv_slope": 516374,
+      "obv_slope": 515124,
       "score": 30.52,
       "reason": "Net buy \u2191 3d streak: 0.32M \u2192 0.78M \u2192 1.15M | OBV +0.5M/day"
     },
@@ -188,10 +199,10 @@
       "ticker": "UNH",
       "price": 417.989990234375,
       "net_buy_d2": -8155,
-      "net_buy_d3": -2254502,
-      "obv_slope": -2006123,
+      "net_buy_d3": -2298869,
+      "obv_slope": -2029094,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.01M \u2192 -2.25M | OBV -2.0M/day"
+      "reason": "Net buy reversed: -0.01M \u2192 -2.30M | OBV -2.0M/day"
     },
     {
       "ticker": "STZ",
@@ -233,8 +244,8 @@
       "ticker": "BLDR",
       "price": 82.33000183105469,
       "net_buy_d2": 106852,
-      "net_buy_d3": -628303,
-      "obv_slope": -1932388,
+      "net_buy_d3": -628310,
+      "obv_slope": -1932392,
       "score": 0.0,
       "reason": "Net buy reversed: 0.11M \u2192 -0.63M | OBV -1.9M/day"
     },
@@ -251,10 +262,10 @@
       "ticker": "HST",
       "price": 23.25,
       "net_buy_d2": -773718,
-      "net_buy_d3": -4886802,
-      "obv_slope": -9481420,
+      "net_buy_d3": -5246154,
+      "obv_slope": -9610786,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.77M \u2192 -4.89M | OBV -9.5M/day"
+      "reason": "Net buy reversed: -0.77M \u2192 -5.25M | OBV -9.6M/day"
     },
     {
       "ticker": "GIS",
@@ -269,10 +280,10 @@
       "ticker": "BIIB",
       "price": 208.4600067138672,
       "net_buy_d2": 344991,
-      "net_buy_d3": -1127632,
-      "obv_slope": -450576,
+      "net_buy_d3": -1151948,
+      "obv_slope": -455693,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.34M \u2192 -1.13M | OBV -0.5M/day"
+      "reason": "Net buy reversed: 0.34M \u2192 -1.15M | OBV -0.5M/day"
     }
   ]
 }
