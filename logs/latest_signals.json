@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T20:44:58.923432+00:00",
+  "timestamp": "2026-07-07T21:35:52.116022+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -62,6 +62,17 @@
   ],
   "net_buy_buy_signals": [
     {
+      "ticker": "PLD",
+      "price": 143.61000061035156,
+      "net_buy_d1": 2752635,
+      "net_buy_d2": 2922137,
+      "net_buy_d3": 2996639,
+      "trend_days": 4,
+      "obv_slope": 3142515,
+      "score": 43.14,
+      "reason": "Net buy \u2191 4d streak: 2.75M \u2192 2.92M \u2192 3.00M | OBV +3.1M/day"
+    },
+    {
       "ticker": "APA",
       "price": 34.0,
       "net_buy_d1": -1057291,
@@ -77,9 +88,9 @@
       "price": 114.94000244140625,
       "net_buy_d1": 558902,
       "net_buy_d2": 1510823,
-      "net_buy_d3": 2174447,
+      "net_buy_d3": 2174492,
       "trend_days": 4,
-      "obv_slope": 1656844,
+      "obv_slope": 1656857,
       "score": 41.66,
       "reason": "Net buy \u2191 4d streak: 0.56M \u2192 1.51M \u2192 2.17M | OBV +1.7M/day"
     },
@@ -99,9 +110,9 @@
       "price": 28.639999389648438,
       "net_buy_d1": -1782559,
       "net_buy_d2": 4670192,
-      "net_buy_d3": 12225889,
+      "net_buy_d3": 12227006,
       "trend_days": 4,
-      "obv_slope": 929620,
+      "obv_slope": 929869,
       "score": 40.93,
       "reason": "Net buy \u2191 4d streak: -1.78M \u2192 4.67M \u2192 12.23M | OBV +0.9M/day"
     },
@@ -126,6 +137,17 @@
       "obv_slope": 1107392,
       "score": 31.11,
       "reason": "Net buy \u2191 3d streak: -1.53M \u2192 0.42M \u2192 0.47M | OBV +1.1M/day"
+    },
+    {
+      "ticker": "GRMN",
+      "price": 248.67999267578125,
+      "net_buy_d1": 89469,
+      "net_buy_d2": 637631,
+      "net_buy_d3": 651889,
+      "trend_days": 3,
+      "obv_slope": 626105,
+      "score": 30.63,
+      "reason": "Net buy \u2191 3d streak: 0.09M \u2192 0.64M \u2192 0.65M | OBV +0.6M/day"
     },
     {
       "ticker": "HWM",
@@ -182,10 +204,10 @@
       "ticker": "FSLR",
       "price": 227.72000122070312,
       "net_buy_d2": 94394,
-      "net_buy_d3": -1337678,
-      "obv_slope": -928100,
+      "net_buy_d3": -1374320,
+      "obv_slope": -938154,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.09M \u2192 -1.34M | OBV -0.9M/day"
+      "reason": "Net buy reversed: 0.09M \u2192 -1.37M | OBV -0.9M/day"
     },
     {
       "ticker": "LITE",
