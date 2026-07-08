@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-08T20:16:19.870907+00:00",
+  "timestamp": "2026-07-08T21:15:52.798888+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -110,11 +110,11 @@
       "price": 280.67999267578125,
       "net_buy_d1": 61689,
       "net_buy_d2": 371409,
-      "net_buy_d3": 1650744,
+      "net_buy_d3": 2191708,
       "trend_days": 3,
-      "obv_slope": 677671,
-      "score": 30.68,
-      "reason": "Net buy \u2191 3d streak: 0.06M \u2192 0.37M \u2192 1.65M | OBV +0.7M/day"
+      "obv_slope": 798515,
+      "score": 30.8,
+      "reason": "Net buy \u2191 3d streak: 0.06M \u2192 0.37M \u2192 2.19M | OBV +0.8M/day"
     },
     {
       "ticker": "VLO",
@@ -129,14 +129,14 @@
     },
     {
       "ticker": "DD",
-      "price": 136.9499969482422,
+      "price": 136.97000122070312,
       "net_buy_d1": 148520,
       "net_buy_d2": 240061,
-      "net_buy_d3": 510003,
+      "net_buy_d3": 519299,
       "trend_days": 3,
       "obv_slope": 12222,
       "score": 30.01,
-      "reason": "Net buy \u2191 3d streak: 0.15M \u2192 0.24M \u2192 0.51M | OBV +0.0M/day"
+      "reason": "Net buy \u2191 3d streak: 0.15M \u2192 0.24M \u2192 0.52M | OBV +0.0M/day"
     }
   ],
   "net_buy_sell_signals": [
@@ -148,6 +148,15 @@
       "obv_slope": -4945780,
       "score": 0.0,
       "reason": "Net buy reversed: -0.11M \u2192 -6.75M | OBV -4.9M/day"
+    },
+    {
+      "ticker": "VMC",
+      "price": 286.5899963378906,
+      "net_buy_d2": -16029,
+      "net_buy_d3": -561909,
+      "obv_slope": -7459,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.02M \u2192 -0.56M | OBV -0.0M/day"
     },
     {
       "ticker": "CL",
@@ -198,10 +207,10 @@
       "ticker": "VRTX",
       "price": 498.42999267578125,
       "net_buy_d2": -212807,
-      "net_buy_d3": -2060803,
-      "obv_slope": -282934,
+      "net_buy_d3": -2169682,
+      "obv_slope": -305176,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.21M \u2192 -2.06M | OBV -0.3M/day"
+      "reason": "Net buy reversed: -0.21M \u2192 -2.17M | OBV -0.3M/day"
     },
     {
       "ticker": "LNT",
@@ -220,15 +229,6 @@
       "obv_slope": -331779,
       "score": 0.0,
       "reason": "Net buy reversed: -0.10M \u2192 -0.64M | OBV -0.3M/day"
-    },
-    {
-      "ticker": "AMT",
-      "price": 165.0399932861328,
-      "net_buy_d2": 164889,
-      "net_buy_d3": -456034,
-      "obv_slope": -1685168,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.16M \u2192 -0.46M | OBV -1.7M/day"
     }
   ]
 }
