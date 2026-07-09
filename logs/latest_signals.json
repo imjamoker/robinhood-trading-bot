@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-09T20:41:40.165076+00:00",
+  "timestamp": "2026-07-09T21:27:42.762501+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -81,6 +81,24 @@
       "reason": "Net buy reversed: 0.04M \u2192 -3.16M | OBV -1.2M/day"
     },
     {
+      "ticker": "KMI",
+      "price": 32.400001525878906,
+      "net_buy_d2": -260166,
+      "net_buy_d3": -5155033,
+      "obv_slope": -2938739,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.26M \u2192 -5.16M | OBV -2.9M/day"
+    },
+    {
+      "ticker": "DOC",
+      "price": 21.56999969482422,
+      "net_buy_d2": 346996,
+      "net_buy_d3": -5236300,
+      "obv_slope": -2269858,
+      "score": 0.0,
+      "reason": "Net buy reversed: 0.35M \u2192 -5.24M | OBV -2.3M/day"
+    },
+    {
       "ticker": "AZO",
       "price": 3010.389892578125,
       "net_buy_d2": -8520,
@@ -88,24 +106,6 @@
       "obv_slope": -98117,
       "score": 0.0,
       "reason": "Net buy reversed: -0.01M \u2192 -0.12M | OBV -0.1M/day"
-    },
-    {
-      "ticker": "DOC",
-      "price": 21.56999969482422,
-      "net_buy_d2": 346996,
-      "net_buy_d3": -3771358,
-      "obv_slope": -1967856,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.35M \u2192 -3.77M | OBV -2.0M/day"
-    },
-    {
-      "ticker": "KMI",
-      "price": 32.400001525878906,
-      "net_buy_d2": -260166,
-      "net_buy_d3": -3321506,
-      "obv_slope": -2449797,
-      "score": 0.0,
-      "reason": "Net buy reversed: -0.26M \u2192 -3.32M | OBV -2.4M/day"
     },
     {
       "ticker": "IR",
@@ -117,6 +117,15 @@
       "reason": "Net buy reversed: 0.14M \u2192 -1.18M | OBV -1.8M/day"
     },
     {
+      "ticker": "YUM",
+      "price": 162.38999938964844,
+      "net_buy_d2": 88423,
+      "net_buy_d3": -610122,
+      "obv_slope": -518470,
+      "score": 0.0,
+      "reason": "Net buy reversed: 0.09M \u2192 -0.61M | OBV -0.5M/day"
+    },
+    {
       "ticker": "TKO",
       "price": 188.17999267578125,
       "net_buy_d2": 94943,
@@ -124,15 +133,6 @@
       "obv_slope": -587762,
       "score": 0.0,
       "reason": "Net buy reversed: 0.09M \u2192 -0.60M | OBV -0.6M/day"
-    },
-    {
-      "ticker": "YUM",
-      "price": 162.38999938964844,
-      "net_buy_d2": 88423,
-      "net_buy_d3": -540483,
-      "obv_slope": -422577,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.09M \u2192 -0.54M | OBV -0.4M/day"
     },
     {
       "ticker": "DE",
