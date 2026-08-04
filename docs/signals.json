@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T16:10:56.563149+00:00",
+  "timestamp": "2026-08-04T16:45:49.963329+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": true,
@@ -7,217 +7,217 @@
     {
       "ticker": "SPY",
       "action": "HOLD",
-      "price": 768.510009765625,
-      "rsi": 82.18,
+      "price": 770.0549926757812,
+      "rsi": 83.12,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0039,
-      "reason": "RSI=82.2, trend=BULLISH, VWAP=AT"
+      "atr_pct": 0.0036,
+      "reason": "RSI=83.1, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "QQQ",
       "action": "HOLD",
-      "price": 718.9099731445312,
-      "rsi": 80.36,
+      "price": 720.2305297851562,
+      "rsi": 80.97,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0064,
-      "reason": "RSI=80.4, trend=BULLISH, VWAP=AT"
+      "atr_pct": 0.0058,
+      "reason": "RSI=81.0, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "AAPL",
       "action": "HOLD",
-      "price": 306.07989501953125,
-      "rsi": 36.96,
+      "price": 307.7650146484375,
+      "rsi": 40.37,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0097,
-      "reason": "RSI=37.0, trend=BEARISH, VWAP=AT"
+      "atr_pct": 0.0095,
+      "reason": "RSI=40.4, trend=BEARISH, VWAP=AT"
     },
     {
       "ticker": "MSFT",
       "action": "HOLD",
-      "price": 497.17999267578125,
-      "rsi": 81.86,
+      "price": 495.0799865722656,
+      "rsi": 78.75,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0124,
-      "reason": "RSI=81.9, trend=BULLISH, VWAP=AT"
+      "atr_pct": 0.0122,
+      "reason": "RSI=78.8, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "NVDA",
       "action": "HOLD",
-      "price": 210.6199951171875,
-      "rsi": 70.58,
+      "price": 210.40499877929688,
+      "rsi": 70.28,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0117,
-      "reason": "RSI=70.6, trend=BULLISH, VWAP=AT"
+      "atr_pct": 0.0107,
+      "reason": "RSI=70.3, trend=BULLISH, VWAP=AT"
     }
   ],
   "net_buy_buy_signals": [
     {
       "ticker": "ETR",
-      "price": 108.54000091552734,
+      "price": 108.9800033569336,
       "net_buy_d1": -2553662,
       "net_buy_d2": 503030,
-      "net_buy_d3": 731403,
+      "net_buy_d3": 913018,
       "trend_days": 4,
-      "obv_slope": 1056730,
-      "score": 41.06,
-      "reason": "Net buy \u2191 4d streak: -2.55M \u2192 0.50M \u2192 0.73M | OBV +1.1M/day"
+      "obv_slope": 1074329,
+      "score": 41.07,
+      "reason": "Net buy \u2191 4d streak: -2.55M \u2192 0.50M \u2192 0.91M | OBV +1.1M/day"
     },
     {
       "ticker": "FITB",
-      "price": 58.119998931884766,
+      "price": 58.290000915527344,
       "net_buy_d1": -123968,
       "net_buy_d2": 435609,
-      "net_buy_d3": 2162378,
+      "net_buy_d3": 2721346,
       "trend_days": 4,
-      "obv_slope": 1005281,
-      "score": 41.01,
-      "reason": "Net buy \u2191 4d streak: -0.12M \u2192 0.44M \u2192 2.16M | OBV +1.0M/day"
+      "obv_slope": 1069679,
+      "score": 41.07,
+      "reason": "Net buy \u2191 4d streak: -0.12M \u2192 0.44M \u2192 2.72M | OBV +1.1M/day"
     },
     {
       "ticker": "GNRC",
-      "price": 214.3000030517578,
+      "price": 216.1699981689453,
       "net_buy_d1": 127023,
       "net_buy_d2": 372130,
-      "net_buy_d3": 439508,
+      "net_buy_d3": 571405,
       "trend_days": 4,
-      "obv_slope": 614143,
-      "score": 40.61,
-      "reason": "Net buy \u2191 4d streak: 0.13M \u2192 0.37M \u2192 0.44M | OBV +0.6M/day"
+      "obv_slope": 628411,
+      "score": 40.63,
+      "reason": "Net buy \u2191 4d streak: 0.13M \u2192 0.37M \u2192 0.57M | OBV +0.6M/day"
     },
     {
       "ticker": "CASY",
-      "price": 865.5750122070312,
+      "price": 862.4199829101562,
       "net_buy_d1": -18199,
       "net_buy_d2": 2099,
-      "net_buy_d3": 68775,
+      "net_buy_d3": 40693,
       "trend_days": 4,
-      "obv_slope": 52826,
-      "score": 40.05,
-      "reason": "Net buy \u2191 4d streak: -0.02M \u2192 0.00M \u2192 0.07M | OBV +0.1M/day"
+      "obv_slope": 58811,
+      "score": 40.06,
+      "reason": "Net buy \u2191 4d streak: -0.02M \u2192 0.00M \u2192 0.04M | OBV +0.1M/day"
     },
     {
       "ticker": "VICI",
-      "price": 26.709999084472656,
+      "price": 26.645000457763672,
       "net_buy_d1": 5030200,
       "net_buy_d2": 7022460,
-      "net_buy_d3": 9966332,
+      "net_buy_d3": 7372116,
       "trend_days": 3,
-      "obv_slope": 8186267,
-      "score": 38.19,
-      "reason": "Net buy \u2191 3d streak: 5.03M \u2192 7.02M \u2192 9.97M | OBV +8.2M/day"
+      "obv_slope": 8298055,
+      "score": 38.3,
+      "reason": "Net buy \u2191 3d streak: 5.03M \u2192 7.02M \u2192 7.37M | OBV +8.3M/day"
     },
     {
       "ticker": "AVY",
-      "price": 173.86000061035156,
+      "price": 174.14999389648438,
       "net_buy_d1": -547452,
       "net_buy_d2": 113767,
-      "net_buy_d3": 229314,
+      "net_buy_d3": 282653,
       "trend_days": 3,
-      "obv_slope": 331002,
-      "score": 30.33,
-      "reason": "Net buy \u2191 3d streak: -0.55M \u2192 0.11M \u2192 0.23M | OBV +0.3M/day"
+      "obv_slope": 336680,
+      "score": 30.34,
+      "reason": "Net buy \u2191 3d streak: -0.55M \u2192 0.11M \u2192 0.28M | OBV +0.3M/day"
     }
   ],
   "net_buy_sell_signals": [
     {
       "ticker": "APTV",
-      "price": 46.95989990234375,
+      "price": 47.369998931884766,
       "net_buy_d2": 1383184,
-      "net_buy_d3": -5798366,
-      "obv_slope": -441976,
+      "net_buy_d3": -4833223,
+      "obv_slope": -629873,
       "score": 0.0,
-      "reason": "Net buy reversed: 1.38M \u2192 -5.80M | OBV -0.4M/day"
+      "reason": "Net buy reversed: 1.38M \u2192 -4.83M | OBV -0.6M/day"
     },
     {
       "ticker": "PODD",
-      "price": 167.2550048828125,
+      "price": 167.35499572753906,
       "net_buy_d2": 162757,
-      "net_buy_d3": -232563,
-      "obv_slope": -299144,
+      "net_buy_d3": -247031,
+      "obv_slope": -311690,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.16M \u2192 -0.23M | OBV -0.3M/day"
+      "reason": "Net buy reversed: 0.16M \u2192 -0.25M | OBV -0.3M/day"
     },
     {
       "ticker": "VST",
-      "price": 144.69000244140625,
+      "price": 145.16000366210938,
       "net_buy_d2": 3260472,
-      "net_buy_d3": -4459462,
-      "obv_slope": -163411,
+      "net_buy_d3": -4792892,
+      "obv_slope": -343570,
       "score": 0.0,
-      "reason": "Net buy reversed: 3.26M \u2192 -4.46M | OBV -0.2M/day"
+      "reason": "Net buy reversed: 3.26M \u2192 -4.79M | OBV -0.3M/day"
     },
     {
-      "ticker": "MAA",
-      "price": 132.17999267578125,
-      "net_buy_d2": 64758,
-      "net_buy_d3": -58891,
-      "obv_slope": -788836,
+      "ticker": "SPGI",
+      "price": 414.6700134277344,
+      "net_buy_d2": 136432,
+      "net_buy_d3": -155640,
+      "obv_slope": -941029,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.06M \u2192 -0.06M | OBV -0.8M/day"
-    },
-    {
-      "ticker": "DHR",
-      "price": 196.36000061035156,
-      "net_buy_d2": -66682,
-      "net_buy_d3": -184258,
-      "obv_slope": -1852701,
-      "score": 0.0,
-      "reason": "Net buy reversed: -0.07M \u2192 -0.18M | OBV -1.9M/day"
+      "reason": "Net buy reversed: 0.14M \u2192 -0.16M | OBV -0.9M/day"
     },
     {
       "ticker": "NFLX",
-      "price": 72.68000030517578,
+      "price": 72.61499786376953,
       "net_buy_d2": 10141587,
-      "net_buy_d3": -6858488,
-      "obv_slope": -14339429,
+      "net_buy_d3": -9418227,
+      "obv_slope": -14785543,
       "score": 0.0,
-      "reason": "Net buy reversed: 10.14M \u2192 -6.86M | OBV -14.3M/day"
+      "reason": "Net buy reversed: 10.14M \u2192 -9.42M | OBV -14.8M/day"
     },
     {
-      "ticker": "FANG",
-      "price": 191.27000427246094,
-      "net_buy_d2": 1081659,
-      "net_buy_d3": -424996,
-      "obv_slope": -181440,
+      "ticker": "MAA",
+      "price": 132.2550048828125,
+      "net_buy_d2": 64758,
+      "net_buy_d3": -54580,
+      "obv_slope": -794525,
       "score": 0.0,
-      "reason": "Net buy reversed: 1.08M \u2192 -0.42M | OBV -0.2M/day"
-    },
-    {
-      "ticker": "CI",
-      "price": 273.69000244140625,
-      "net_buy_d2": 899681,
-      "net_buy_d3": -317198,
-      "obv_slope": -769334,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.90M \u2192 -0.32M | OBV -0.8M/day"
-    },
-    {
-      "ticker": "MRSH",
-      "price": 190.1199951171875,
-      "net_buy_d2": 506376,
-      "net_buy_d3": -157865,
-      "obv_slope": -930951,
-      "score": 0.0,
-      "reason": "Net buy reversed: 0.51M \u2192 -0.16M | OBV -0.9M/day"
+      "reason": "Net buy reversed: 0.06M \u2192 -0.05M | OBV -0.8M/day"
     },
     {
       "ticker": "ARE",
-      "price": 50.51499938964844,
+      "price": 50.15999984741211,
       "net_buy_d2": 991116,
-      "net_buy_d3": -305088,
-      "obv_slope": -302623,
+      "net_buy_d3": -645942,
+      "obv_slope": -326858,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.99M \u2192 -0.31M | OBV -0.3M/day"
+      "reason": "Net buy reversed: 0.99M \u2192 -0.65M | OBV -0.3M/day"
+    },
+    {
+      "ticker": "SOLV",
+      "price": 87.25499725341797,
+      "net_buy_d2": 1005055,
+      "net_buy_d3": -269334,
+      "obv_slope": -291096,
+      "score": 0.0,
+      "reason": "Net buy reversed: 1.01M \u2192 -0.27M | OBV -0.3M/day"
+    },
+    {
+      "ticker": "CSGP",
+      "price": 29.524999618530273,
+      "net_buy_d2": 4061207,
+      "net_buy_d3": -952769,
+      "obv_slope": -3458886,
+      "score": 0.0,
+      "reason": "Net buy reversed: 4.06M \u2192 -0.95M | OBV -3.5M/day"
+    },
+    {
+      "ticker": "TROW",
+      "price": 113.0250015258789,
+      "net_buy_d2": 1692051,
+      "net_buy_d3": -347145,
+      "obv_slope": -435067,
+      "score": 0.0,
+      "reason": "Net buy reversed: 1.69M \u2192 -0.35M | OBV -0.4M/day"
     }
   ]
 }
