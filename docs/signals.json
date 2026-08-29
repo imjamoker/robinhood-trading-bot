@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T01:21:30.663912+00:00",
+  "timestamp": "2026-08-29T01:56:52.606208+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -30,7 +30,7 @@
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 319.6400146484375,
-      "rsi": 63.82,
+      "rsi": 63.81,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
