@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T20:32:45.449044+00:00",
+  "timestamp": "2026-09-08T21:30:34.854194+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,8 +66,8 @@
       "ticker": "CRL",
       "price": 280.760009765625,
       "net_buy_d2": -3491,
-      "net_buy_d3": -577203,
-      "obv_slope": -52260,
+      "net_buy_d3": -577352,
+      "obv_slope": -52297,
       "score": 0.0,
       "reason": "Net buy reversed: -0.00M \u2192 -0.58M | OBV -0.1M/day"
     },
@@ -75,8 +75,8 @@
       "ticker": "AIZ",
       "price": 281.010009765625,
       "net_buy_d2": -1541,
-      "net_buy_d3": -248477,
-      "obv_slope": -44477,
+      "net_buy_d3": -248542,
+      "obv_slope": -44491,
       "score": 0.0,
       "reason": "Net buy reversed: -0.00M \u2192 -0.25M | OBV -0.0M/day"
     },
@@ -84,17 +84,17 @@
       "ticker": "RDDT",
       "price": 149.3800048828125,
       "net_buy_d2": 54697,
-      "net_buy_d3": -3827522,
-      "obv_slope": -1795410,
+      "net_buy_d3": -3844388,
+      "obv_slope": -1799744,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.05M \u2192 -3.83M | OBV -1.8M/day"
+      "reason": "Net buy reversed: 0.05M \u2192 -3.84M | OBV -1.8M/day"
     },
     {
       "ticker": "GEHC",
       "price": 66.7750015258789,
       "net_buy_d2": -90734,
-      "net_buy_d3": -2903718,
-      "obv_slope": -2025217,
+      "net_buy_d3": -2904100,
+      "obv_slope": -2025297,
       "score": 0.0,
       "reason": "Net buy reversed: -0.09M \u2192 -2.90M | OBV -2.0M/day"
     },
@@ -102,44 +102,44 @@
       "ticker": "VRSK",
       "price": 175.49000549316406,
       "net_buy_d2": 56774,
-      "net_buy_d3": -1604393,
-      "obv_slope": -517405,
+      "net_buy_d3": -1604563,
+      "obv_slope": -517441,
       "score": 0.0,
       "reason": "Net buy reversed: 0.06M \u2192 -1.60M | OBV -0.5M/day"
-    },
-    {
-      "ticker": "RCL",
-      "price": 264.5,
-      "net_buy_d2": -106166,
-      "net_buy_d3": -1710495,
-      "obv_slope": -2048404,
-      "score": 0.0,
-      "reason": "Net buy reversed: -0.11M \u2192 -1.71M | OBV -2.0M/day"
     },
     {
       "ticker": "CASY",
       "price": 733.489990234375,
       "net_buy_d2": -43150,
-      "net_buy_d3": -676009,
-      "obv_slope": -246401,
+      "net_buy_d3": -748882,
+      "obv_slope": -263844,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.04M \u2192 -0.68M | OBV -0.2M/day"
+      "reason": "Net buy reversed: -0.04M \u2192 -0.75M | OBV -0.3M/day"
+    },
+    {
+      "ticker": "RCL",
+      "price": 264.5,
+      "net_buy_d2": -106166,
+      "net_buy_d3": -1723752,
+      "obv_slope": -2052702,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.11M \u2192 -1.72M | OBV -2.1M/day"
     },
     {
       "ticker": "CVX",
       "price": 209.8000030517578,
       "net_buy_d2": 438298,
-      "net_buy_d3": -5361391,
-      "obv_slope": -584957,
+      "net_buy_d3": -5365180,
+      "obv_slope": -583873,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.44M \u2192 -5.36M | OBV -0.6M/day"
+      "reason": "Net buy reversed: 0.44M \u2192 -5.37M | OBV -0.6M/day"
     },
     {
       "ticker": "UDR",
       "price": 36.11000061035156,
       "net_buy_d2": -171196,
-      "net_buy_d3": -2391423,
-      "obv_slope": -1439107,
+      "net_buy_d3": -2391747,
+      "obv_slope": -1439221,
       "score": 0.0,
       "reason": "Net buy reversed: -0.17M \u2192 -2.39M | OBV -1.4M/day"
     },
@@ -147,8 +147,8 @@
       "ticker": "ARE",
       "price": 50.77000045776367,
       "net_buy_d2": 85583,
-      "net_buy_d3": -926045,
-      "obv_slope": -612818,
+      "net_buy_d3": -926454,
+      "obv_slope": -612923,
       "score": 0.0,
       "reason": "Net buy reversed: 0.09M \u2192 -0.93M | OBV -0.6M/day"
     }
