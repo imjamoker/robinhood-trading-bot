@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T20:15:04.780278+00:00",
+  "timestamp": "2026-09-09T21:21:55.823951+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,9 +66,9 @@
       "price": 76.54000091552734,
       "net_buy_d1": 2784730,
       "net_buy_d2": 4103631,
-      "net_buy_d3": 4186869,
+      "net_buy_d3": 4189537,
       "trend_days": 3,
-      "obv_slope": 3616005,
+      "obv_slope": 3616595,
       "score": 33.62,
       "reason": "Net buy \u2191 3d streak: 2.78M \u2192 4.10M \u2192 4.19M | OBV +3.6M/day"
     }
@@ -78,8 +78,8 @@
       "ticker": "EXE",
       "price": 96.62000274658203,
       "net_buy_d2": 15331,
-      "net_buy_d3": -1194094,
-      "obv_slope": -664558,
+      "net_buy_d3": -1194405,
+      "obv_slope": -664664,
       "score": 0.0,
       "reason": "Net buy reversed: 0.02M \u2192 -1.19M | OBV -0.7M/day"
     },
@@ -87,26 +87,35 @@
       "ticker": "MSI",
       "price": 459.8900146484375,
       "net_buy_d2": -17436,
-      "net_buy_d3": -762371,
-      "obv_slope": -902622,
+      "net_buy_d3": -792502,
+      "obv_slope": -907368,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.02M \u2192 -0.76M | OBV -0.9M/day"
+      "reason": "Net buy reversed: -0.02M \u2192 -0.79M | OBV -0.9M/day"
     },
     {
       "ticker": "DD",
       "price": 127.91999816894531,
       "net_buy_d2": -28991,
-      "net_buy_d3": -1113962,
-      "obv_slope": -389158,
+      "net_buy_d3": -1114444,
+      "obv_slope": -389263,
       "score": 0.0,
       "reason": "Net buy reversed: -0.03M \u2192 -1.11M | OBV -0.4M/day"
+    },
+    {
+      "ticker": "LLY",
+      "price": 1124.2099609375,
+      "net_buy_d2": -29750,
+      "net_buy_d3": -951315,
+      "obv_slope": -1492664,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.03M \u2192 -0.95M | OBV -1.5M/day"
     },
     {
       "ticker": "CBOE",
       "price": 291.8699951171875,
       "net_buy_d2": 7194,
-      "net_buy_d3": -202703,
-      "obv_slope": -478865,
+      "net_buy_d3": -203882,
+      "obv_slope": -480042,
       "score": 0.0,
       "reason": "Net buy reversed: 0.01M \u2192 -0.20M | OBV -0.5M/day"
     },
@@ -114,55 +123,46 @@
       "ticker": "NEE",
       "price": 82.6500015258789,
       "net_buy_d2": -287798,
-      "net_buy_d3": -8322584,
-      "obv_slope": -361566,
+      "net_buy_d3": -8525154,
+      "obv_slope": -403629,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.29M \u2192 -8.32M | OBV -0.4M/day"
+      "reason": "Net buy reversed: -0.29M \u2192 -8.53M | OBV -0.4M/day"
     },
     {
       "ticker": "TROW",
       "price": 107.73999786376953,
       "net_buy_d2": 48146,
-      "net_buy_d3": -1131142,
-      "obv_slope": -768307,
+      "net_buy_d3": -1131286,
+      "obv_slope": -768338,
       "score": 0.0,
       "reason": "Net buy reversed: 0.05M \u2192 -1.13M | OBV -0.8M/day"
-    },
-    {
-      "ticker": "LLY",
-      "price": 1124.0999755859375,
-      "net_buy_d2": -29750,
-      "net_buy_d3": -690987,
-      "obv_slope": -1610737,
-      "score": 0.0,
-      "reason": "Net buy reversed: -0.03M \u2192 -0.69M | OBV -1.6M/day"
     },
     {
       "ticker": "TGT",
       "price": 157.52000427246094,
       "net_buy_d2": 315999,
-      "net_buy_d3": -3089720,
-      "obv_slope": -187405,
+      "net_buy_d3": -3233419,
+      "obv_slope": -217476,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.32M \u2192 -3.09M | OBV -0.2M/day"
+      "reason": "Net buy reversed: 0.32M \u2192 -3.23M | OBV -0.2M/day"
+    },
+    {
+      "ticker": "ES",
+      "price": 70.44000244140625,
+      "net_buy_d2": -123478,
+      "net_buy_d3": -1426565,
+      "obv_slope": -148741,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.12M \u2192 -1.43M | OBV -0.1M/day"
     },
     {
       "ticker": "VTRS",
       "price": 16.5,
       "net_buy_d2": 376680,
-      "net_buy_d3": -3547319,
-      "obv_slope": -5945216,
+      "net_buy_d3": -3547355,
+      "obv_slope": -5945230,
       "score": 0.0,
       "reason": "Net buy reversed: 0.38M \u2192 -3.55M | OBV -5.9M/day"
-    },
-    {
-      "ticker": "ECL",
-      "price": 272.2099914550781,
-      "net_buy_d2": -98504,
-      "net_buy_d3": -1051404,
-      "obv_slope": -550401,
-      "score": 0.0,
-      "reason": "Net buy reversed: -0.10M \u2192 -1.05M | OBV -0.6M/day"
     }
   ]
 }
