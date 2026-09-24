@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T20:16:19.681392+00:00",
+  "timestamp": "2026-09-24T20:59:23.983115+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -109,21 +109,21 @@
     },
     {
       "ticker": "PNW",
-      "price": 91.0999984741211,
+      "price": 91.08000183105469,
       "net_buy_d2": -29577,
-      "net_buy_d3": -1071255,
+      "net_buy_d3": -1108510,
       "obv_slope": -1582334,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.03M \u2192 -1.07M | OBV -1.6M/day"
+      "reason": "Net buy reversed: -0.03M \u2192 -1.11M | OBV -1.6M/day"
     },
     {
       "ticker": "LYB",
-      "price": 60.189998626708984,
+      "price": 60.18000030517578,
       "net_buy_d2": -65544,
-      "net_buy_d3": -2327311,
+      "net_buy_d3": -2362041,
       "obv_slope": -2873566,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.07M \u2192 -2.33M | OBV -2.9M/day"
+      "reason": "Net buy reversed: -0.07M \u2192 -2.36M | OBV -2.9M/day"
     },
     {
       "ticker": "AIG",
