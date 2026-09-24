@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T20:59:23.983115+00:00",
+  "timestamp": "2026-09-24T21:53:07.423466+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,8 +66,8 @@
       "ticker": "DOW",
       "price": 28.559999465942383,
       "net_buy_d2": 71362,
-      "net_buy_d3": -6088695,
-      "obv_slope": -4669192,
+      "net_buy_d3": -6088802,
+      "obv_slope": -4669217,
       "score": 0.0,
       "reason": "Net buy reversed: 0.07M \u2192 -6.09M | OBV -4.7M/day"
     },
@@ -75,8 +75,8 @@
       "ticker": "CME",
       "price": 268.9100036621094,
       "net_buy_d2": 8071,
-      "net_buy_d3": -635966,
-      "obv_slope": -444743,
+      "net_buy_d3": -641621,
+      "obv_slope": -446912,
       "score": 0.0,
       "reason": "Net buy reversed: 0.01M \u2192 -0.64M | OBV -0.4M/day"
     },
@@ -84,17 +84,17 @@
       "ticker": "HPQ",
       "price": 31.139999389648438,
       "net_buy_d2": -147203,
-      "net_buy_d3": -11356602,
-      "obv_slope": -19158374,
+      "net_buy_d3": -11370195,
+      "obv_slope": -19161150,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.15M \u2192 -11.36M | OBV -19.2M/day"
+      "reason": "Net buy reversed: -0.15M \u2192 -11.37M | OBV -19.2M/day"
     },
     {
       "ticker": "REGN",
       "price": 796.02001953125,
       "net_buy_d2": 2759,
-      "net_buy_d3": -150371,
-      "obv_slope": -183849,
+      "net_buy_d3": -154415,
+      "obv_slope": -186994,
       "score": 0.0,
       "reason": "Net buy reversed: 0.00M \u2192 -0.15M | OBV -0.2M/day"
     },
@@ -102,7 +102,7 @@
       "ticker": "AJG",
       "price": 227.1300048828125,
       "net_buy_d2": 32596,
-      "net_buy_d3": -1305106,
+      "net_buy_d3": -1305107,
       "obv_slope": -1629427,
       "score": 0.0,
       "reason": "Net buy reversed: 0.03M \u2192 -1.31M | OBV -1.6M/day"
@@ -120,8 +120,8 @@
       "ticker": "LYB",
       "price": 60.18000030517578,
       "net_buy_d2": -65544,
-      "net_buy_d3": -2362041,
-      "obv_slope": -2873566,
+      "net_buy_d3": -2362546,
+      "obv_slope": -2873458,
       "score": 0.0,
       "reason": "Net buy reversed: -0.07M \u2192 -2.36M | OBV -2.9M/day"
     },
@@ -129,28 +129,28 @@
       "ticker": "AIG",
       "price": 74.81999969482422,
       "net_buy_d2": -104353,
-      "net_buy_d3": -2801815,
-      "obv_slope": -2104010,
+      "net_buy_d3": -2806046,
+      "obv_slope": -2104965,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.10M \u2192 -2.80M | OBV -2.1M/day"
+      "reason": "Net buy reversed: -0.10M \u2192 -2.81M | OBV -2.1M/day"
     },
     {
       "ticker": "STLD",
       "price": 235.1999969482422,
       "net_buy_d2": 6208,
-      "net_buy_d3": -130061,
-      "obv_slope": -567519,
+      "net_buy_d3": -130091,
+      "obv_slope": -567493,
       "score": 0.0,
       "reason": "Net buy reversed: 0.01M \u2192 -0.13M | OBV -0.6M/day"
     },
     {
-      "ticker": "MNST",
-      "price": 42.66999816894531,
-      "net_buy_d2": 647799,
-      "net_buy_d3": -8913260,
-      "obv_slope": -4026275,
+      "ticker": "NSC",
+      "price": 313.1700134277344,
+      "net_buy_d2": -47251,
+      "net_buy_d3": -748574,
+      "obv_slope": -852847,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.65M \u2192 -8.91M | OBV -4.0M/day"
+      "reason": "Net buy reversed: -0.05M \u2192 -0.75M | OBV -0.9M/day"
     }
   ]
 }
