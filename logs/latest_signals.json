@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T20:56:16.638750+00:00",
+  "timestamp": "2026-09-25T21:54:04.487162+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,42 +66,42 @@
       "price": 55.040000915527344,
       "net_buy_d1": 1075511,
       "net_buy_d2": 7093286,
-      "net_buy_d3": 13684376,
+      "net_buy_d3": 13980648,
       "trend_days": 3,
-      "obv_slope": 8259204,
-      "score": 38.26,
-      "reason": "Net buy \u2191 3d streak: 1.08M \u2192 7.09M \u2192 13.68M | OBV +8.3M/day"
+      "obv_slope": 8345356,
+      "score": 38.35,
+      "reason": "Net buy \u2191 3d streak: 1.08M \u2192 7.09M \u2192 13.98M | OBV +8.3M/day"
     },
     {
       "ticker": "MSFT",
       "price": 516.1699829101562,
       "net_buy_d1": -5936953,
       "net_buy_d2": 12449812,
-      "net_buy_d3": 26819617,
+      "net_buy_d3": 26881911,
       "trend_days": 3,
-      "obv_slope": 4085332,
-      "score": 34.09,
-      "reason": "Net buy \u2191 3d streak: -5.94M \u2192 12.45M \u2192 26.82M | OBV +4.1M/day"
+      "obv_slope": 4102937,
+      "score": 34.1,
+      "reason": "Net buy \u2191 3d streak: -5.94M \u2192 12.45M \u2192 26.88M | OBV +4.1M/day"
     },
     {
       "ticker": "MA",
       "price": 567.6500244140625,
       "net_buy_d1": 22044,
       "net_buy_d2": 1095450,
-      "net_buy_d3": 1471677,
+      "net_buy_d3": 1523118,
       "trend_days": 3,
-      "obv_slope": 1201732,
-      "score": 31.2,
-      "reason": "Net buy \u2191 3d streak: 0.02M \u2192 1.10M \u2192 1.47M | OBV +1.2M/day"
+      "obv_slope": 1217517,
+      "score": 31.22,
+      "reason": "Net buy \u2191 3d streak: 0.02M \u2192 1.10M \u2192 1.52M | OBV +1.2M/day"
     },
     {
       "ticker": "VRTX",
       "price": 526.1900024414062,
       "net_buy_d1": -176659,
       "net_buy_d2": 32305,
-      "net_buy_d3": 490385,
+      "net_buy_d3": 492101,
       "trend_days": 3,
-      "obv_slope": 1072770,
+      "obv_slope": 1073292,
       "score": 31.07,
       "reason": "Net buy \u2191 3d streak: -0.18M \u2192 0.03M \u2192 0.49M | OBV +1.1M/day"
     },
@@ -110,9 +110,9 @@
       "price": 20.610000610351562,
       "net_buy_d1": -11594624,
       "net_buy_d2": 6620958,
-      "net_buy_d3": 10609249,
+      "net_buy_d3": 10609872,
       "trend_days": 3,
-      "obv_slope": 744258,
+      "obv_slope": 744443,
       "score": 30.74,
       "reason": "Net buy \u2191 3d streak: -11.59M \u2192 6.62M \u2192 10.61M | OBV +0.7M/day"
     },
@@ -133,8 +133,8 @@
       "ticker": "BAX",
       "price": 23.3700008392334,
       "net_buy_d2": -25,
-      "net_buy_d3": -2146047,
-      "obv_slope": -4877127,
+      "net_buy_d3": -2146222,
+      "obv_slope": -4877234,
       "score": 0.08,
       "reason": "Net buy reversed: -0.00M \u2192 -2.15M | OBV -4.9M/day"
     },
@@ -142,8 +142,8 @@
       "ticker": "IRM",
       "price": 111.37999725341797,
       "net_buy_d2": -33083,
-      "net_buy_d3": -839707,
-      "obv_slope": -798245,
+      "net_buy_d3": -839862,
+      "obv_slope": -798293,
       "score": 0.0,
       "reason": "Net buy reversed: -0.03M \u2192 -0.84M | OBV -0.8M/day"
     },
@@ -151,17 +151,17 @@
       "ticker": "DLR",
       "price": 178.61000061035156,
       "net_buy_d2": 93326,
-      "net_buy_d3": -1314077,
-      "obv_slope": -1469060,
+      "net_buy_d3": -1325868,
+      "obv_slope": -1471694,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.09M \u2192 -1.31M | OBV -1.5M/day"
+      "reason": "Net buy reversed: 0.09M \u2192 -1.33M | OBV -1.5M/day"
     },
     {
       "ticker": "DXCM",
       "price": 86.62000274658203,
       "net_buy_d2": 114744,
-      "net_buy_d3": -1106244,
-      "obv_slope": -656492,
+      "net_buy_d3": -1106675,
+      "obv_slope": -656637,
       "score": 0.0,
       "reason": "Net buy reversed: 0.11M \u2192 -1.11M | OBV -0.7M/day"
     },
@@ -169,8 +169,8 @@
       "ticker": "ELV",
       "price": 396.0899963378906,
       "net_buy_d2": 214233,
-      "net_buy_d3": -897551,
-      "obv_slope": -1170475,
+      "net_buy_d3": -897571,
+      "obv_slope": -1170480,
       "score": 0.0,
       "reason": "Net buy reversed: 0.21M \u2192 -0.90M | OBV -1.2M/day"
     },
@@ -178,8 +178,8 @@
       "ticker": "INCY",
       "price": 123.88999938964844,
       "net_buy_d2": 167204,
-      "net_buy_d3": -532740,
-      "obv_slope": -792632,
+      "net_buy_d3": -532746,
+      "obv_slope": -792635,
       "score": 0.0,
       "reason": "Net buy reversed: 0.17M \u2192 -0.53M | OBV -0.8M/day"
     },
@@ -187,8 +187,8 @@
       "ticker": "CNC",
       "price": 61.81999969482422,
       "net_buy_d2": -718863,
-      "net_buy_d3": -3272644,
-      "obv_slope": -4338879,
+      "net_buy_d3": -3273424,
+      "obv_slope": -4339051,
       "score": 0.0,
       "reason": "Net buy reversed: -0.72M \u2192 -3.27M | OBV -4.3M/day"
     },
@@ -196,28 +196,28 @@
       "ticker": "BA",
       "price": 198.07000732421875,
       "net_buy_d2": -547830,
-      "net_buy_d3": -2383759,
-      "obv_slope": -380632,
+      "net_buy_d3": -2385929,
+      "obv_slope": -379662,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.55M \u2192 -2.38M | OBV -0.4M/day"
-    },
-    {
-      "ticker": "KHC",
-      "price": 23.6299991607666,
-      "net_buy_d2": 1495931,
-      "net_buy_d3": -3479822,
-      "obv_slope": -5421056,
-      "score": 0.0,
-      "reason": "Net buy reversed: 1.50M \u2192 -3.48M | OBV -5.4M/day"
+      "reason": "Net buy reversed: -0.55M \u2192 -2.39M | OBV -0.4M/day"
     },
     {
       "ticker": "RDDT",
       "price": 149.83999633789062,
       "net_buy_d2": 1203561,
-      "net_buy_d3": -2794563,
-      "obv_slope": -1807930,
+      "net_buy_d3": -2805981,
+      "obv_slope": -1810233,
       "score": 0.0,
-      "reason": "Net buy reversed: 1.20M \u2192 -2.79M | OBV -1.8M/day"
+      "reason": "Net buy reversed: 1.20M \u2192 -2.81M | OBV -1.8M/day"
+    },
+    {
+      "ticker": "KHC",
+      "price": 23.6299991607666,
+      "net_buy_d2": 1495931,
+      "net_buy_d3": -3484411,
+      "obv_slope": -5423809,
+      "score": 0.0,
+      "reason": "Net buy reversed: 1.50M \u2192 -3.48M | OBV -5.4M/day"
     }
   ]
 }
