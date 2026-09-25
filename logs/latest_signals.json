@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T20:16:11.768076+00:00",
+  "timestamp": "2026-09-25T20:56:16.638750+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -185,12 +185,12 @@
     },
     {
       "ticker": "CNC",
-      "price": 61.810001373291016,
+      "price": 61.81999969482422,
       "net_buy_d2": -718863,
-      "net_buy_d3": -3309827,
+      "net_buy_d3": -3272644,
       "obv_slope": -4338879,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.72M \u2192 -3.31M | OBV -4.3M/day"
+      "reason": "Net buy reversed: -0.72M \u2192 -3.27M | OBV -4.3M/day"
     },
     {
       "ticker": "BA",
@@ -212,12 +212,12 @@
     },
     {
       "ticker": "RDDT",
-      "price": 149.8800048828125,
+      "price": 149.83999633789062,
       "net_buy_d2": 1203561,
-      "net_buy_d3": -2748552,
+      "net_buy_d3": -2794563,
       "obv_slope": -1807930,
       "score": 0.0,
-      "reason": "Net buy reversed: 1.20M \u2192 -2.75M | OBV -1.8M/day"
+      "reason": "Net buy reversed: 1.20M \u2192 -2.79M | OBV -1.8M/day"
     }
   ]
 }
