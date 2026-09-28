@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28T20:23:04.425438+00:00",
+  "timestamp": "2026-09-28T20:55:07.519910+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -121,11 +121,11 @@
       "price": 266.2799987792969,
       "net_buy_d1": -208007,
       "net_buy_d2": 67046,
-      "net_buy_d3": 1081629,
+      "net_buy_d3": 1178206,
       "trend_days": 3,
-      "obv_slope": 233365,
-      "score": 30.23,
-      "reason": "Net buy \u2191 3d streak: -0.21M \u2192 0.07M \u2192 1.08M | OBV +0.2M/day"
+      "obv_slope": 291578,
+      "score": 30.29,
+      "reason": "Net buy \u2191 3d streak: -0.21M \u2192 0.07M \u2192 1.18M | OBV +0.3M/day"
     }
   ],
   "net_buy_sell_signals": [
@@ -160,10 +160,10 @@
       "ticker": "BX",
       "price": 114.55999755859375,
       "net_buy_d2": 292125,
-      "net_buy_d3": -4849513,
-      "obv_slope": -2971513,
+      "net_buy_d3": -4903988,
+      "obv_slope": -2989430,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.29M \u2192 -4.85M | OBV -3.0M/day"
+      "reason": "Net buy reversed: 0.29M \u2192 -4.90M | OBV -3.0M/day"
     },
     {
       "ticker": "COHR",
@@ -196,10 +196,10 @@
       "ticker": "XYZ",
       "price": 73.30999755859375,
       "net_buy_d2": 464776,
-      "net_buy_d3": -4997550,
-      "obv_slope": -2019536,
+      "net_buy_d3": -5066945,
+      "obv_slope": -2039704,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.46M \u2192 -5.00M | OBV -2.0M/day"
+      "reason": "Net buy reversed: 0.46M \u2192 -5.07M | OBV -2.0M/day"
     },
     {
       "ticker": "ADM",
