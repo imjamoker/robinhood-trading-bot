@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T20:41:21.517920+00:00",
+  "timestamp": "2026-09-30T21:12:27.265754+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,20 +66,20 @@
       "price": 183.3699951171875,
       "net_buy_d1": -506261,
       "net_buy_d2": 4898125,
-      "net_buy_d3": 6629864,
+      "net_buy_d3": 6639758,
       "trend_days": 3,
-      "obv_slope": 1102612,
-      "score": 31.1,
-      "reason": "Net buy \u2191 3d streak: -0.51M \u2192 4.90M \u2192 6.63M | OBV +1.1M/day"
+      "obv_slope": 1105353,
+      "score": 31.11,
+      "reason": "Net buy \u2191 3d streak: -0.51M \u2192 4.90M \u2192 6.64M | OBV +1.1M/day"
     },
     {
       "ticker": "SNPS",
       "price": 434.94000244140625,
       "net_buy_d1": -1398070,
       "net_buy_d2": 974224,
-      "net_buy_d3": 1330859,
+      "net_buy_d3": 1333191,
       "trend_days": 3,
-      "obv_slope": 375746,
+      "obv_slope": 377306,
       "score": 30.38,
       "reason": "Net buy \u2191 3d streak: -1.40M \u2192 0.97M \u2192 1.33M | OBV +0.4M/day"
     },
@@ -88,9 +88,9 @@
       "price": 24.0,
       "net_buy_d1": 434607,
       "net_buy_d2": 1055639,
-      "net_buy_d3": 6455518,
+      "net_buy_d3": 6455571,
       "trend_days": 3,
-      "obv_slope": 277317,
+      "obv_slope": 277331,
       "score": 30.28,
       "reason": "Net buy \u2191 3d streak: 0.43M \u2192 1.06M \u2192 6.46M | OBV +0.3M/day"
     }
@@ -118,26 +118,26 @@
       "ticker": "GOOG",
       "price": 340.739990234375,
       "net_buy_d2": -60582,
-      "net_buy_d3": -10780454,
-      "obv_slope": -974664,
+      "net_buy_d3": -11013539,
+      "obv_slope": -874872,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.06M \u2192 -10.78M | OBV -1.0M/day"
+      "reason": "Net buy reversed: -0.06M \u2192 -11.01M | OBV -0.9M/day"
     },
     {
       "ticker": "DHI",
       "price": 136.64999389648438,
       "net_buy_d2": 29639,
-      "net_buy_d3": -2919569,
-      "obv_slope": -1731432,
+      "net_buy_d3": -2927365,
+      "obv_slope": -1733080,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.03M \u2192 -2.92M | OBV -1.7M/day"
+      "reason": "Net buy reversed: 0.03M \u2192 -2.93M | OBV -1.7M/day"
     },
     {
       "ticker": "IEX",
       "price": 227.97999572753906,
       "net_buy_d2": -7840,
-      "net_buy_d3": -692944,
-      "obv_slope": -77526,
+      "net_buy_d3": -692948,
+      "obv_slope": -77527,
       "score": 0.0,
       "reason": "Net buy reversed: -0.01M \u2192 -0.69M | OBV -0.1M/day"
     },
@@ -145,8 +145,8 @@
       "ticker": "ADM",
       "price": 79.37999725341797,
       "net_buy_d2": -17167,
-      "net_buy_d3": -1505029,
-      "obv_slope": -3022728,
+      "net_buy_d3": -1505311,
+      "obv_slope": -3022841,
       "score": 0.0,
       "reason": "Net buy reversed: -0.02M \u2192 -1.51M | OBV -3.0M/day"
     },
@@ -154,37 +154,37 @@
       "ticker": "JKHY",
       "price": 143.24000549316406,
       "net_buy_d2": 10973,
-      "net_buy_d3": -671303,
-      "obv_slope": -41503,
+      "net_buy_d3": -675286,
+      "obv_slope": -42507,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.01M \u2192 -0.67M | OBV -0.0M/day"
+      "reason": "Net buy reversed: 0.01M \u2192 -0.68M | OBV -0.0M/day"
     },
     {
       "ticker": "KHC",
       "price": 22.719999313354492,
       "net_buy_d2": 259368,
-      "net_buy_d3": -12473045,
-      "obv_slope": -10686119,
+      "net_buy_d3": -12491221,
+      "obv_slope": -10689754,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.26M \u2192 -12.47M | OBV -10.7M/day"
+      "reason": "Net buy reversed: 0.26M \u2192 -12.49M | OBV -10.7M/day"
     },
     {
       "ticker": "MS",
       "price": 188.0800018310547,
       "net_buy_d2": -151883,
-      "net_buy_d3": -6838443,
-      "obv_slope": -4990401,
+      "net_buy_d3": -6869975,
+      "obv_slope": -4996739,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.15M \u2192 -6.84M | OBV -5.0M/day"
+      "reason": "Net buy reversed: -0.15M \u2192 -6.87M | OBV -5.0M/day"
     },
     {
       "ticker": "MCD",
       "price": 230.94000244140625,
       "net_buy_d2": -145911,
-      "net_buy_d3": -5278342,
-      "obv_slope": -2433509,
+      "net_buy_d3": -5286197,
+      "obv_slope": -2435131,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.15M \u2192 -5.28M | OBV -2.4M/day"
+      "reason": "Net buy reversed: -0.15M \u2192 -5.29M | OBV -2.4M/day"
     }
   ]
 }
