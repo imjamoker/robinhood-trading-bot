@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T22:29:18.497912+00:00",
+  "timestamp": "2026-10-07T23:23:05.234982+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -19,12 +19,12 @@
       "ticker": "QQQ",
       "action": "HOLD",
       "price": 757.7100219726562,
-      "rsi": 58.65,
+      "rsi": 58.64,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0028,
-      "reason": "RSI=58.7, trend=BULLISH, VWAP=AT"
+      "reason": "RSI=58.6, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "AAPL",
@@ -40,8 +40,8 @@
     {
       "ticker": "MSFT",
       "action": "HOLD",
-      "price": 529.5599975585938,
-      "rsi": 57.53,
+      "price": 529.5399780273438,
+      "rsi": 57.48,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
