@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T21:46:19.773446+00:00",
+  "timestamp": "2026-10-07T22:29:18.497912+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -40,8 +40,8 @@
     {
       "ticker": "MSFT",
       "action": "HOLD",
-      "price": 529.5399780273438,
-      "rsi": 57.48,
+      "price": 529.5599975585938,
+      "rsi": 57.53,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -99,11 +99,11 @@
       "price": 33.95000076293945,
       "net_buy_d1": 864214,
       "net_buy_d2": 6339966,
-      "net_buy_d3": 6394992,
+      "net_buy_d3": 6551138,
       "trend_days": 3,
       "obv_slope": 6791799,
       "score": 36.79,
-      "reason": "Net buy \u2191 3d streak: 0.86M \u2192 6.34M \u2192 6.39M | OBV +6.8M/day"
+      "reason": "Net buy \u2191 3d streak: 0.86M \u2192 6.34M \u2192 6.55M | OBV +6.8M/day"
     },
     {
       "ticker": "NRG",
