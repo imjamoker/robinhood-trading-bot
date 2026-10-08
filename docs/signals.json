@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T22:42:21.964296+00:00",
+  "timestamp": "2026-10-08T23:36:16.125720+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -19,7 +19,7 @@
       "ticker": "QQQ",
       "action": "HOLD",
       "price": 747.5700073242188,
-      "rsi": 39.79,
+      "rsi": 39.8,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -88,11 +88,11 @@
       "price": 32.68000030517578,
       "net_buy_d1": -5639970,
       "net_buy_d2": 2115988,
-      "net_buy_d3": 36158491,
+      "net_buy_d3": 36891584,
       "trend_days": 3,
       "obv_slope": 10897120,
       "score": 40.9,
-      "reason": "Net buy \u2191 3d streak: -5.64M \u2192 2.12M \u2192 36.16M | OBV +10.9M/day"
+      "reason": "Net buy \u2191 3d streak: -5.64M \u2192 2.12M \u2192 36.89M | OBV +10.9M/day"
     },
     {
       "ticker": "ACN",
@@ -165,11 +165,11 @@
       "price": 303.8800048828125,
       "net_buy_d1": 1909386,
       "net_buy_d2": 2143172,
-      "net_buy_d3": 5063008,
+      "net_buy_d3": 5071505,
       "trend_days": 3,
       "obv_slope": 3727781,
       "score": 33.73,
-      "reason": "Net buy \u2191 3d streak: 1.91M \u2192 2.14M \u2192 5.06M | OBV +3.7M/day"
+      "reason": "Net buy \u2191 3d streak: 1.91M \u2192 2.14M \u2192 5.07M | OBV +3.7M/day"
     },
     {
       "ticker": "LLY",
@@ -248,10 +248,10 @@
       "ticker": "IBKR",
       "price": 86.47000122070312,
       "net_buy_d2": 464936,
-      "net_buy_d3": -2242479,
+      "net_buy_d3": -2312818,
       "obv_slope": -82290,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.46M \u2192 -2.24M | OBV -0.1M/day"
+      "reason": "Net buy reversed: 0.46M \u2192 -2.31M | OBV -0.1M/day"
     },
     {
       "ticker": "BE",
