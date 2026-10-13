@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T01:01:31.842178+00:00",
+  "timestamp": "2026-10-13T01:56:20.224310+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7,19 +7,19 @@
     {
       "ticker": "SPY",
       "action": "HOLD",
-      "price": 778.0599975585938,
-      "rsi": 57.03,
+      "price": 778.0700073242188,
+      "rsi": 57.07,
       "ema_trend": "NEUTRAL",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0016,
-      "reason": "RSI=57.0, trend=NEUTRAL, VWAP=AT"
+      "reason": "RSI=57.1, trend=NEUTRAL, VWAP=AT"
     },
     {
       "ticker": "QQQ",
       "action": "HOLD",
       "price": 746.02001953125,
-      "rsi": 39.35,
+      "rsi": 39.36,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -30,7 +30,7 @@
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 341.05999755859375,
-      "rsi": 61.98,
+      "rsi": 61.97,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -40,8 +40,8 @@
     {
       "ticker": "MSFT",
       "action": "HOLD",
-      "price": 541.1900024414062,
-      "rsi": 67.43,
+      "price": 541.1799926757812,
+      "rsi": 67.4,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -51,13 +51,13 @@
     {
       "ticker": "NVDA",
       "action": "HOLD",
-      "price": 226.42999267578125,
-      "rsi": 28.56,
+      "price": 226.4199981689453,
+      "rsi": 28.53,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0053,
-      "reason": "RSI=28.6, trend=BEARISH, VWAP=AT"
+      "reason": "RSI=28.5, trend=BEARISH, VWAP=AT"
     }
   ],
   "net_buy_buy_signals": [
@@ -82,6 +82,17 @@
       "obv_slope": 2725790,
       "score": 32.73,
       "reason": "Net buy \u2191 3d streak: 1.22M \u2192 1.46M \u2192 2.09M | OBV +2.7M/day"
+    },
+    {
+      "ticker": "VYLR",
+      "price": 75.88999938964844,
+      "net_buy_d1": -6634976,
+      "net_buy_d2": 1564909,
+      "net_buy_d3": 3431487,
+      "trend_days": 3,
+      "obv_slope": 1521380,
+      "score": 31.52,
+      "reason": "Net buy \u2191 3d streak: -6.63M \u2192 1.56M \u2192 3.43M | OBV +1.5M/day"
     },
     {
       "ticker": "TXT",
