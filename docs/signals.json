@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T21:51:52.163258+00:00",
+  "timestamp": "2026-10-15T22:58:56.365516+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -19,7 +19,7 @@
       "ticker": "QQQ",
       "action": "HOLD",
       "price": 728.0399780273438,
-      "rsi": 39.14,
+      "rsi": 39.13,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -41,7 +41,7 @@
       "ticker": "MSFT",
       "action": "HOLD",
       "price": 539.3300170898438,
-      "rsi": 53.39,
+      "rsi": 53.38,
       "ema_trend": "NEUTRAL",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -209,11 +209,11 @@
       "price": 291.8699951171875,
       "net_buy_d1": -130415,
       "net_buy_d2": 729102,
-      "net_buy_d3": 1495869,
+      "net_buy_d3": 1422953,
       "trend_days": 3,
       "obv_slope": 1037170,
       "score": 31.04,
-      "reason": "Net buy \u2191 3d streak: -0.13M \u2192 0.73M \u2192 1.50M | OBV +1.0M/day"
+      "reason": "Net buy \u2191 3d streak: -0.13M \u2192 0.73M \u2192 1.42M | OBV +1.0M/day"
     },
     {
       "ticker": "APD",
@@ -264,11 +264,11 @@
       "price": 406.20001220703125,
       "net_buy_d1": -215653,
       "net_buy_d2": -159119,
-      "net_buy_d3": 922513,
+      "net_buy_d3": 902935,
       "trend_days": 3,
       "obv_slope": 135956,
       "score": 30.14,
-      "reason": "Net buy \u2191 3d streak: -0.22M \u2192 -0.16M \u2192 0.92M | OBV +0.1M/day"
+      "reason": "Net buy \u2191 3d streak: -0.22M \u2192 -0.16M \u2192 0.90M | OBV +0.1M/day"
     },
     {
       "ticker": "PH",
