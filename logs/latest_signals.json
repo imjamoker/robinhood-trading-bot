@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T20:16:58.344415+00:00",
+  "timestamp": "2026-10-19T20:57:17.762144+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -141,10 +141,10 @@
       "ticker": "TEL",
       "price": 212.3300018310547,
       "net_buy_d2": 441617,
-      "net_buy_d3": -1302773,
-      "obv_slope": -308872,
+      "net_buy_d3": -1557990,
+      "obv_slope": -374958,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.44M \u2192 -1.30M | OBV -0.3M/day"
+      "reason": "Net buy reversed: 0.44M \u2192 -1.56M | OBV -0.4M/day"
     },
     {
       "ticker": "ES",
