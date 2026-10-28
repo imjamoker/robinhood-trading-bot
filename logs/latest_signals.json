@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T22:55:01.400835+00:00",
+  "timestamp": "2026-10-28T23:57:34.308697+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -13,7 +13,7 @@
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0029,
-      "reason": "RSI=65.5, trend=BULLISH, VWAP=AT"
+      "reason": "RSI=65.6, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "QQQ",
@@ -40,13 +40,13 @@
     {
       "ticker": "MSFT",
       "action": "HOLD",
-      "price": 531.72998046875,
-      "rsi": 56.16,
+      "price": 530.8300170898438,
+      "rsi": 54.04,
       "ema_trend": "NEUTRAL",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0056,
-      "reason": "RSI=56.2, trend=NEUTRAL, VWAP=AT"
+      "reason": "RSI=54.0, trend=NEUTRAL, VWAP=AT"
     },
     {
       "ticker": "NVDA",
@@ -54,10 +54,10 @@
       "price": 215.38999938964844,
       "rsi": 44.61,
       "ema_trend": "NEUTRAL",
-      "vwap_bias": "BELOW",
+      "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0072,
-      "reason": "RSI=44.6, trend=NEUTRAL, VWAP=BELOW"
+      "reason": "RSI=44.6, trend=NEUTRAL, VWAP=AT"
     }
   ],
   "net_buy_buy_signals": [
