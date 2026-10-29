@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T23:02:25.566368+00:00",
+  "timestamp": "2026-10-29T23:53:02.133733+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -41,12 +41,12 @@
       "ticker": "MSFT",
       "action": "HOLD",
       "price": 530.4299926757812,
-      "rsi": 54.48,
+      "rsi": 54.79,
       "ema_trend": "NEUTRAL",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0087,
-      "reason": "RSI=54.5, trend=NEUTRAL, VWAP=AT"
+      "reason": "RSI=54.8, trend=NEUTRAL, VWAP=AT"
     },
     {
       "ticker": "NVDA",
@@ -88,11 +88,11 @@
       "price": 208.5,
       "net_buy_d1": 572337,
       "net_buy_d2": 801257,
-      "net_buy_d3": 3183105,
+      "net_buy_d3": 3148382,
       "trend_days": 4,
       "obv_slope": 3895757,
       "score": 43.9,
-      "reason": "Net buy \u2191 4d streak: 0.57M \u2192 0.80M \u2192 3.18M | OBV +3.9M/day"
+      "reason": "Net buy \u2191 4d streak: 0.57M \u2192 0.80M \u2192 3.15M | OBV +3.9M/day"
     },
     {
       "ticker": "ECL",
@@ -203,6 +203,17 @@
       "obv_slope": 1887179,
       "score": 31.89,
       "reason": "Net buy \u2191 3d streak: 0.54M \u2192 0.65M \u2192 0.68M | OBV +1.9M/day"
+    },
+    {
+      "ticker": "IEX",
+      "price": 239.3300018310547,
+      "net_buy_d1": 504617,
+      "net_buy_d2": 1036894,
+      "net_buy_d3": 1045970,
+      "trend_days": 3,
+      "obv_slope": 1193956,
+      "score": 31.19,
+      "reason": "Net buy \u2191 3d streak: 0.50M \u2192 1.04M \u2192 1.05M | OBV +1.2M/day"
     },
     {
       "ticker": "ROP",
