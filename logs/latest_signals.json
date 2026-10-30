@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-30T22:42:53.022036+00:00",
+  "timestamp": "2026-10-30T23:33:51.979000+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -29,8 +29,8 @@
     {
       "ticker": "AAPL",
       "action": "HOLD",
-      "price": 344.79998779296875,
-      "rsi": 44.84,
+      "price": 344.7900085449219,
+      "rsi": 44.8,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -41,12 +41,12 @@
       "ticker": "MSFT",
       "action": "HOLD",
       "price": 521.9000244140625,
-      "rsi": 42.26,
+      "rsi": 42.11,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0091,
-      "reason": "RSI=42.3, trend=BEARISH, VWAP=AT"
+      "reason": "RSI=42.1, trend=BEARISH, VWAP=AT"
     },
     {
       "ticker": "NVDA",
