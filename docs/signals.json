@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-03T22:44:11.059310+00:00",
+  "timestamp": "2026-11-03T23:46:26.149750+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -8,7 +8,7 @@
       "ticker": "SPY",
       "action": "HOLD",
       "price": 754.4099731445312,
-      "rsi": 40.26,
+      "rsi": 40.28,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -30,7 +30,7 @@
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 331.739990234375,
-      "rsi": 31.7,
+      "rsi": 31.68,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -41,7 +41,7 @@
       "ticker": "MSFT",
       "action": "HOLD",
       "price": 520.77001953125,
-      "rsi": 49.5,
+      "rsi": 49.49,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -196,10 +196,10 @@
       "ticker": "APO",
       "price": 113.55000305175781,
       "net_buy_d2": -535446,
-      "net_buy_d3": -2906188,
+      "net_buy_d3": -2756627,
       "obv_slope": -600947,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.54M \u2192 -2.91M | OBV -0.6M/day"
+      "reason": "Net buy reversed: -0.54M \u2192 -2.76M | OBV -0.6M/day"
     },
     {
       "ticker": "HSIC",
