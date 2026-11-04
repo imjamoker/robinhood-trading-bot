@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-04T22:24:51.673442+00:00",
+  "timestamp": "2026-11-04T23:01:56.454640+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -29,8 +29,8 @@
     {
       "ticker": "AAPL",
       "action": "HOLD",
-      "price": 349.6199951171875,
-      "rsi": 59.33,
+      "price": 349.6099853515625,
+      "rsi": 59.32,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -41,18 +41,18 @@
       "ticker": "MSFT",
       "action": "HOLD",
       "price": 556.030029296875,
-      "rsi": 72.78,
+      "rsi": 72.71,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0107,
-      "reason": "RSI=72.8, trend=BULLISH, VWAP=AT"
+      "reason": "RSI=72.7, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "NVDA",
       "action": "BUY",
-      "price": 200.27999877929688,
-      "rsi": 34.12,
+      "price": 200.28500366210938,
+      "rsi": 34.13,
       "ema_trend": "BEARISH",
       "vwap_bias": "BELOW",
       "confidence": 2,
@@ -287,10 +287,10 @@
       "ticker": "SNDK",
       "price": 1037.4000244140625,
       "net_buy_d2": -110401,
-      "net_buy_d3": -6424872,
+      "net_buy_d3": -6342940,
       "obv_slope": -6366343,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.11M \u2192 -6.42M | OBV -6.4M/day"
+      "reason": "Net buy reversed: -0.11M \u2192 -6.34M | OBV -6.4M/day"
     },
     {
       "ticker": "HPE",
