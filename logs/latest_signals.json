@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-05T21:16:06.518585+00:00",
+  "timestamp": "2026-11-05T21:52:18.766986+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -63,14 +63,14 @@
   "net_buy_buy_signals": [
     {
       "ticker": "CMG",
-      "price": 35.3849983215332,
+      "price": 35.400001525878906,
       "net_buy_d1": 15212451,
       "net_buy_d2": 17967548,
-      "net_buy_d3": 21086209,
+      "net_buy_d3": 21954385,
       "trend_days": 4,
       "obv_slope": 20288638,
       "score": 60.29,
-      "reason": "Net buy \u2191 4d streak: 15.21M \u2192 17.97M \u2192 21.09M | OBV +20.3M/day"
+      "reason": "Net buy \u2191 4d streak: 15.21M \u2192 17.97M \u2192 21.95M | OBV +20.3M/day"
     }
   ],
   "net_buy_sell_signals": [
