@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T21:24:39.590203+00:00",
+  "timestamp": "2026-11-06T21:56:13.651259+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -8,7 +8,7 @@
       "ticker": "SPY",
       "action": "HOLD",
       "price": 735.3400268554688,
-      "rsi": 32.01,
+      "rsi": 32.0,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -19,18 +19,18 @@
       "ticker": "QQQ",
       "action": "HOLD",
       "price": 656.219970703125,
-      "rsi": 35.37,
+      "rsi": 35.48,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0095,
-      "reason": "RSI=35.4, trend=BEARISH, VWAP=AT"
+      "reason": "RSI=35.5, trend=BEARISH, VWAP=AT"
     },
     {
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 342.364990234375,
-      "rsi": 45.21,
+      "rsi": 45.2,
       "ema_trend": "NEUTRAL",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -41,7 +41,7 @@
       "ticker": "MSFT",
       "action": "HOLD",
       "price": 530.5499877929688,
-      "rsi": 44.16,
+      "rsi": 44.15,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -98,10 +98,10 @@
       "ticker": "YUM",
       "price": 161.13999938964844,
       "net_buy_d2": 54840,
-      "net_buy_d3": -2071633,
-      "obv_slope": -705989,
+      "net_buy_d3": -2161422,
+      "obv_slope": -723930,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.05M \u2192 -2.07M | OBV -0.7M/day"
+      "reason": "Net buy reversed: 0.05M \u2192 -2.16M | OBV -0.7M/day"
     },
     {
       "ticker": "CSGP",
