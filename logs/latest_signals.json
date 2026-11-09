@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T23:16:32.348842+00:00",
+  "timestamp": "2026-11-09T23:38:04.168423+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -19,7 +19,7 @@
       "ticker": "QQQ",
       "action": "HOLD",
       "price": 678.760009765625,
-      "rsi": 56.11,
+      "rsi": 56.09,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -40,8 +40,8 @@
     {
       "ticker": "MSFT",
       "action": "HOLD",
-      "price": 545.1699829101562,
-      "rsi": 58.46,
+      "price": 545.1799926757812,
+      "rsi": 58.48,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -56,7 +56,7 @@
       "ema_trend": "BEARISH",
       "vwap_bias": "ABOVE",
       "confidence": 2,
-      "atr_pct": 0.0208,
+      "atr_pct": 0.0211,
       "reason": "price above VWAP | EMA bearish crossover"
     }
   ],
