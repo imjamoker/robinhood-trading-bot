@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T22:41:27.546558+00:00",
+  "timestamp": "2026-11-10T23:48:58.332844+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -56,11 +56,22 @@
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0248,
+      "atr_pct": 0.0246,
       "reason": "RSI=28.0, trend=BEARISH, VWAP=AT"
     }
   ],
   "net_buy_buy_signals": [
+    {
+      "ticker": "TSLA",
+      "price": 379.7799987792969,
+      "net_buy_d1": 11308627,
+      "net_buy_d2": 22741983,
+      "net_buy_d3": 22803029,
+      "trend_days": 3,
+      "obv_slope": 10766835,
+      "score": 40.77,
+      "reason": "Net buy \u2191 3d streak: 11.31M \u2192 22.74M \u2192 22.80M | OBV +10.8M/day"
+    },
     {
       "ticker": "DD",
       "price": 156.8800048828125,
@@ -88,11 +99,11 @@
       "price": 120.55999755859375,
       "net_buy_d1": 1314255,
       "net_buy_d2": 1731535,
-      "net_buy_d3": 1848005,
+      "net_buy_d3": 1855437,
       "trend_days": 3,
-      "obv_slope": 3354909,
-      "score": 33.35,
-      "reason": "Net buy \u2191 3d streak: 1.31M \u2192 1.73M \u2192 1.85M | OBV +3.4M/day"
+      "obv_slope": 3359200,
+      "score": 33.36,
+      "reason": "Net buy \u2191 3d streak: 1.31M \u2192 1.73M \u2192 1.86M | OBV +3.4M/day"
     },
     {
       "ticker": "SLB",
@@ -154,11 +165,11 @@
       "price": 196.5500030517578,
       "net_buy_d1": 780799,
       "net_buy_d2": 829089,
-      "net_buy_d3": 842785,
+      "net_buy_d3": 1031310,
       "trend_days": 3,
-      "obv_slope": 414812,
-      "score": 30.41,
-      "reason": "Net buy \u2191 3d streak: 0.78M \u2192 0.83M \u2192 0.84M | OBV +0.4M/day"
+      "obv_slope": 484267,
+      "score": 30.48,
+      "reason": "Net buy \u2191 3d streak: 0.78M \u2192 0.83M \u2192 1.03M | OBV +0.5M/day"
     },
     {
       "ticker": "SJM",
@@ -220,9 +231,9 @@
       "price": 321.3800048828125,
       "net_buy_d1": -679750,
       "net_buy_d2": -283839,
-      "net_buy_d3": 44692,
+      "net_buy_d3": 44693,
       "trend_days": 3,
-      "obv_slope": 133995,
+      "obv_slope": 133992,
       "score": 30.13,
       "reason": "Net buy \u2191 3d streak: -0.68M \u2192 -0.28M \u2192 0.04M | OBV +0.1M/day"
     },
@@ -242,9 +253,9 @@
       "price": 87.94000244140625,
       "net_buy_d1": -1876405,
       "net_buy_d2": 1565703,
-      "net_buy_d3": 2118109,
+      "net_buy_d3": 2118698,
       "trend_days": 3,
-      "obv_slope": 27034,
+      "obv_slope": 27204,
       "score": 30.03,
       "reason": "Net buy \u2191 3d streak: -1.88M \u2192 1.57M \u2192 2.12M | OBV +0.0M/day"
     }
@@ -299,10 +310,10 @@
       "ticker": "DPZ",
       "price": 330.05999755859375,
       "net_buy_d2": 33648,
-      "net_buy_d3": -223139,
-      "obv_slope": -399975,
+      "net_buy_d3": -225737,
+      "obv_slope": -401512,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.03M \u2192 -0.22M | OBV -0.4M/day"
+      "reason": "Net buy reversed: 0.03M \u2192 -0.23M | OBV -0.4M/day"
     },
     {
       "ticker": "FIS",
