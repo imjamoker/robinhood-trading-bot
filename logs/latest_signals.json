@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T23:48:58.332844+00:00",
+  "timestamp": "2026-11-11T00:30:27.207409+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -56,7 +56,7 @@
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0246,
+      "atr_pct": 0.0248,
       "reason": "RSI=28.0, trend=BEARISH, VWAP=AT"
     }
   ],
