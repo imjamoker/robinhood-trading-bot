@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T21:38:21.331025+00:00",
+  "timestamp": "2026-11-12T22:09:32.670702+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,17 +66,17 @@
       "ticker": "USB",
       "price": 60.470001220703125,
       "net_buy_d2": 34,
-      "net_buy_d3": -1871447,
-      "obv_slope": -2553988,
+      "net_buy_d3": -1877583,
+      "obv_slope": -2556785,
       "score": 0.05,
-      "reason": "Net buy reversed: 0.00M \u2192 -1.87M | OBV -2.6M/day"
+      "reason": "Net buy reversed: 0.00M \u2192 -1.88M | OBV -2.6M/day"
     },
     {
       "ticker": "TKO",
       "price": 194.0800018310547,
       "net_buy_d2": -10811,
-      "net_buy_d3": -811002,
-      "obv_slope": -50909,
+      "net_buy_d3": -811358,
+      "obv_slope": -51003,
       "score": 0.0,
       "reason": "Net buy reversed: -0.01M \u2192 -0.81M | OBV -0.1M/day"
     },
@@ -84,8 +84,8 @@
       "ticker": "PAYX",
       "price": 115.18000030517578,
       "net_buy_d2": 59100,
-      "net_buy_d3": -1070996,
-      "obv_slope": -944476,
+      "net_buy_d3": -1072795,
+      "obv_slope": -945082,
       "score": 0.0,
       "reason": "Net buy reversed: 0.06M \u2192 -1.07M | OBV -0.9M/day"
     },
@@ -93,17 +93,17 @@
       "ticker": "MRNA",
       "price": 231.35000610351562,
       "net_buy_d2": -307149,
-      "net_buy_d3": -5448729,
-      "obv_slope": -4532712,
+      "net_buy_d3": -5483683,
+      "obv_slope": -4541580,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.31M \u2192 -5.45M | OBV -4.5M/day"
+      "reason": "Net buy reversed: -0.31M \u2192 -5.48M | OBV -4.5M/day"
     },
     {
       "ticker": "BALL",
       "price": 64.91000366210938,
       "net_buy_d2": 83488,
-      "net_buy_d3": -1260408,
-      "obv_slope": -1109837,
+      "net_buy_d3": -1262271,
+      "obv_slope": -1110251,
       "score": 0.0,
       "reason": "Net buy reversed: 0.08M \u2192 -1.26M | OBV -1.1M/day"
     },
@@ -111,44 +111,44 @@
       "ticker": "SCHW",
       "price": 91.72000122070312,
       "net_buy_d2": 405935,
-      "net_buy_d3": -5230859,
-      "obv_slope": -373253,
+      "net_buy_d3": -5244740,
+      "obv_slope": -376558,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.41M \u2192 -5.23M | OBV -0.4M/day"
+      "reason": "Net buy reversed: 0.41M \u2192 -5.24M | OBV -0.4M/day"
     },
     {
       "ticker": "ACN",
       "price": 249.9499969482422,
       "net_buy_d2": 265665,
-      "net_buy_d3": -3304344,
-      "obv_slope": -1302040,
+      "net_buy_d3": -3312562,
+      "obv_slope": -1303731,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.27M \u2192 -3.30M | OBV -1.3M/day"
+      "reason": "Net buy reversed: 0.27M \u2192 -3.31M | OBV -1.3M/day"
     },
     {
       "ticker": "DECK",
       "price": 84.52999877929688,
       "net_buy_d2": 279641,
-      "net_buy_d3": -3281759,
-      "obv_slope": -1186952,
+      "net_buy_d3": -3288132,
+      "obv_slope": -1188255,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.28M \u2192 -3.28M | OBV -1.2M/day"
+      "reason": "Net buy reversed: 0.28M \u2192 -3.29M | OBV -1.2M/day"
     },
     {
       "ticker": "CBRE",
       "price": 132.5399932861328,
       "net_buy_d2": 147828,
-      "net_buy_d3": -1443255,
-      "obv_slope": -1021268,
+      "net_buy_d3": -1450172,
+      "obv_slope": -1022754,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.15M \u2192 -1.44M | OBV -1.0M/day"
+      "reason": "Net buy reversed: 0.15M \u2192 -1.45M | OBV -1.0M/day"
     },
     {
       "ticker": "CRH",
       "price": 93.91999816894531,
       "net_buy_d2": -306714,
-      "net_buy_d3": -3569568,
-      "obv_slope": -2399210,
+      "net_buy_d3": -3574610,
+      "obv_slope": -2400282,
       "score": 0.0,
       "reason": "Net buy reversed: -0.31M \u2192 -3.57M | OBV -2.4M/day"
     }
