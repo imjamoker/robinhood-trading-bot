@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T22:09:32.670702+00:00",
+  "timestamp": "2026-11-12T22:34:20.602516+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7,8 +7,8 @@
     {
       "ticker": "SPY",
       "action": "HOLD",
-      "price": 757.2000122070312,
-      "rsi": 53.49,
+      "price": 757.1900024414062,
+      "rsi": 53.47,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -18,8 +18,8 @@
     {
       "ticker": "QQQ",
       "action": "HOLD",
-      "price": 688.2100219726562,
-      "rsi": 55.82,
+      "price": 688.1699829101562,
+      "rsi": 55.78,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -56,7 +56,7 @@
       "ema_trend": "BEARISH",
       "vwap_bias": "ABOVE",
       "confidence": 2,
-      "atr_pct": 0.0248,
+      "atr_pct": 0.025,
       "reason": "price above VWAP | EMA bearish crossover"
     }
   ],
