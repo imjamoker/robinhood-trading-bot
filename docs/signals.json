@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T21:18:28.064542+00:00",
+  "timestamp": "2026-11-12T21:38:21.331025+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7,8 +7,8 @@
     {
       "ticker": "SPY",
       "action": "HOLD",
-      "price": 757.1900024414062,
-      "rsi": 53.47,
+      "price": 757.2000122070312,
+      "rsi": 53.49,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -18,8 +18,8 @@
     {
       "ticker": "QQQ",
       "action": "HOLD",
-      "price": 688.1699829101562,
-      "rsi": 55.78,
+      "price": 688.2100219726562,
+      "rsi": 55.82,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -56,7 +56,7 @@
       "ema_trend": "BEARISH",
       "vwap_bias": "ABOVE",
       "confidence": 2,
-      "atr_pct": 0.025,
+      "atr_pct": 0.0248,
       "reason": "price above VWAP | EMA bearish crossover"
     }
   ],
@@ -147,10 +147,10 @@
       "ticker": "CRH",
       "price": 93.91999816894531,
       "net_buy_d2": -306714,
-      "net_buy_d3": -3520210,
-      "obv_slope": -2377699,
+      "net_buy_d3": -3569568,
+      "obv_slope": -2399210,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.31M \u2192 -3.52M | OBV -2.4M/day"
+      "reason": "Net buy reversed: -0.31M \u2192 -3.57M | OBV -2.4M/day"
     }
   ]
 }
