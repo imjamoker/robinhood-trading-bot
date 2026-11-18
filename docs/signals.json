@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18T23:16:00.715504+00:00",
+  "timestamp": "2026-11-18T23:44:43.676371+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7,8 +7,8 @@
     {
       "ticker": "SPY",
       "action": "HOLD",
-      "price": 730.3250122070312,
-      "rsi": 35.04,
+      "price": 730.3300170898438,
+      "rsi": 35.05,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -30,7 +30,7 @@
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 352.2900085449219,
-      "rsi": 46.77,
+      "rsi": 46.79,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -52,7 +52,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "price": 150.8699951171875,
-      "rsi": 30.73,
+      "rsi": 30.71,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -147,10 +147,10 @@
       "ticker": "BMY",
       "price": 59.560001373291016,
       "net_buy_d2": -781261,
-      "net_buy_d3": -8629073,
+      "net_buy_d3": -8575155,
       "obv_slope": -7446954,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.78M \u2192 -8.63M | OBV -7.4M/day"
+      "reason": "Net buy reversed: -0.78M \u2192 -8.58M | OBV -7.4M/day"
     }
   ]
 }
