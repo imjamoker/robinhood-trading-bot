@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18T21:42:33.973530+00:00",
+  "timestamp": "2026-11-18T22:24:40.640619+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,17 +66,17 @@
       "ticker": "PODD",
       "price": 139.97999572753906,
       "net_buy_d2": -11198,
-      "net_buy_d3": -1703564,
-      "obv_slope": -269939,
+      "net_buy_d3": -1712526,
+      "obv_slope": -272124,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.01M \u2192 -1.70M | OBV -0.3M/day"
+      "reason": "Net buy reversed: -0.01M \u2192 -1.71M | OBV -0.3M/day"
     },
     {
       "ticker": "EME",
       "price": 646.22998046875,
       "net_buy_d2": 2242,
-      "net_buy_d3": -231760,
-      "obv_slope": -121943,
+      "net_buy_d3": -231887,
+      "obv_slope": -121984,
       "score": 0.0,
       "reason": "Net buy reversed: 0.00M \u2192 -0.23M | OBV -0.1M/day"
     },
@@ -84,26 +84,26 @@
       "ticker": "CVS",
       "price": 81.3499984741211,
       "net_buy_d2": 368012,
-      "net_buy_d3": -15244620,
-      "obv_slope": -12656101,
+      "net_buy_d3": -15269769,
+      "obv_slope": -12661764,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.37M \u2192 -15.24M | OBV -12.7M/day"
+      "reason": "Net buy reversed: 0.37M \u2192 -15.27M | OBV -12.7M/day"
     },
     {
       "ticker": "QCOM",
       "price": 159.80999755859375,
       "net_buy_d2": -154532,
-      "net_buy_d3": -6534643,
-      "obv_slope": -10770030,
+      "net_buy_d3": -6543932,
+      "obv_slope": -10772628,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.15M \u2192 -6.53M | OBV -10.8M/day"
+      "reason": "Net buy reversed: -0.15M \u2192 -6.54M | OBV -10.8M/day"
     },
     {
       "ticker": "CDNS",
       "price": 305.82000732421875,
       "net_buy_d2": 57177,
-      "net_buy_d3": -1497557,
-      "obv_slope": -1591782,
+      "net_buy_d3": -1499989,
+      "obv_slope": -1592307,
       "score": 0.0,
       "reason": "Net buy reversed: 0.06M \u2192 -1.50M | OBV -1.6M/day"
     },
@@ -111,8 +111,8 @@
       "ticker": "HST",
       "price": 25.350000381469727,
       "net_buy_d2": 420909,
-      "net_buy_d3": -7140131,
-      "obv_slope": -2275447,
+      "net_buy_d3": -7142118,
+      "obv_slope": -2275874,
       "score": 0.0,
       "reason": "Net buy reversed: 0.42M \u2192 -7.14M | OBV -2.3M/day"
     },
@@ -120,17 +120,17 @@
       "ticker": "C",
       "price": 117.33999633789062,
       "net_buy_d2": -654998,
-      "net_buy_d3": -9486013,
-      "obv_slope": -8622091,
+      "net_buy_d3": -9882397,
+      "obv_slope": -8709411,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.65M \u2192 -9.49M | OBV -8.6M/day"
+      "reason": "Net buy reversed: -0.65M \u2192 -9.88M | OBV -8.7M/day"
     },
     {
       "ticker": "AMGN",
       "price": 443.8900146484375,
       "net_buy_d2": -128385,
-      "net_buy_d3": -1707962,
-      "obv_slope": -2127709,
+      "net_buy_d3": -1710869,
+      "obv_slope": -2128586,
       "score": 0.0,
       "reason": "Net buy reversed: -0.13M \u2192 -1.71M | OBV -2.1M/day"
     },
@@ -138,19 +138,19 @@
       "ticker": "GM",
       "price": 82.12999725341797,
       "net_buy_d2": 667245,
-      "net_buy_d3": -6683915,
-      "obv_slope": -1808428,
+      "net_buy_d3": -6686180,
+      "obv_slope": -1808948,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.67M \u2192 -6.68M | OBV -1.8M/day"
+      "reason": "Net buy reversed: 0.67M \u2192 -6.69M | OBV -1.8M/day"
     },
     {
       "ticker": "BMY",
       "price": 59.560001373291016,
       "net_buy_d2": -781261,
-      "net_buy_d3": -8620064,
-      "obv_slope": -7444962,
+      "net_buy_d3": -8629073,
+      "obv_slope": -7446954,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.78M \u2192 -8.62M | OBV -7.4M/day"
+      "reason": "Net buy reversed: -0.78M \u2192 -8.63M | OBV -7.4M/day"
     }
   ]
 }
