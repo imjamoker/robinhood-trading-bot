@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T21:58:18.127567+00:00",
+  "timestamp": "2026-11-19T22:29:54.074763+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -29,8 +29,8 @@
     {
       "ticker": "AAPL",
       "action": "HOLD",
-      "price": 349.1099853515625,
-      "rsi": 38.67,
+      "price": 349.1000061035156,
+      "rsi": 38.65,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -52,7 +52,7 @@
       "ticker": "NVDA",
       "action": "BUY",
       "price": 146.0,
-      "rsi": 26.39,
+      "rsi": 26.38,
       "ema_trend": "BEARISH",
       "vwap_bias": "BELOW",
       "confidence": 2,
@@ -66,8 +66,8 @@
       "ticker": "ECL",
       "price": 297.32000732421875,
       "net_buy_d2": 0,
-      "net_buy_d3": -731605,
-      "obv_slope": -1615627,
+      "net_buy_d3": -731607,
+      "obv_slope": -1615628,
       "score": 0.73,
       "reason": "Net buy reversed: 0.00M \u2192 -0.73M | OBV -1.6M/day"
     },
@@ -75,71 +75,71 @@
       "ticker": "SMCI",
       "price": 23.84000015258789,
       "net_buy_d2": 43,
-      "net_buy_d3": -31239807,
-      "obv_slope": -20911061,
+      "net_buy_d3": -31424006,
+      "obv_slope": -20953092,
       "score": 0.72,
-      "reason": "Net buy reversed: 0.00M \u2192 -31.24M | OBV -20.9M/day"
+      "reason": "Net buy reversed: 0.00M \u2192 -31.42M | OBV -21.0M/day"
     },
     {
       "ticker": "MU",
       "price": 690.4400024414062,
       "net_buy_d2": 193065,
-      "net_buy_d3": -33456058,
-      "obv_slope": -30649166,
+      "net_buy_d3": -33694901,
+      "obv_slope": -30698556,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.19M \u2192 -33.46M | OBV -30.6M/day"
+      "reason": "Net buy reversed: 0.19M \u2192 -33.69M | OBV -30.7M/day"
     },
     {
       "ticker": "GS",
       "price": 847.530029296875,
       "net_buy_d2": 16098,
-      "net_buy_d3": -2204047,
-      "obv_slope": -2549788,
+      "net_buy_d3": -2380837,
+      "obv_slope": -2591557,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.02M \u2192 -2.20M | OBV -2.5M/day"
+      "reason": "Net buy reversed: 0.02M \u2192 -2.38M | OBV -2.6M/day"
     },
     {
       "ticker": "TTWO",
       "price": 208.64999389648438,
       "net_buy_d2": 69925,
-      "net_buy_d3": -7822135,
-      "obv_slope": -1088904,
+      "net_buy_d3": -7881438,
+      "obv_slope": -1091610,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.07M \u2192 -7.82M | OBV -1.1M/day"
+      "reason": "Net buy reversed: 0.07M \u2192 -7.88M | OBV -1.1M/day"
     },
     {
       "ticker": "PYPL",
       "price": 56.369998931884766,
       "net_buy_d2": -93334,
-      "net_buy_d3": -8072306,
-      "obv_slope": -9324015,
+      "net_buy_d3": -8197032,
+      "obv_slope": -9352773,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.09M \u2192 -8.07M | OBV -9.3M/day"
+      "reason": "Net buy reversed: -0.09M \u2192 -8.20M | OBV -9.4M/day"
     },
     {
       "ticker": "GOOGL",
       "price": 272.6600036621094,
       "net_buy_d2": 1141748,
-      "net_buy_d3": -46850219,
-      "obv_slope": -18001931,
+      "net_buy_d3": -47291569,
+      "obv_slope": -18092558,
       "score": 0.0,
-      "reason": "Net buy reversed: 1.14M \u2192 -46.85M | OBV -18.0M/day"
+      "reason": "Net buy reversed: 1.14M \u2192 -47.29M | OBV -18.1M/day"
     },
     {
       "ticker": "WAB",
       "price": 280.7300109863281,
       "net_buy_d2": 28865,
-      "net_buy_d3": -841915,
-      "obv_slope": -435273,
+      "net_buy_d3": -847955,
+      "obv_slope": -436862,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.03M \u2192 -0.84M | OBV -0.4M/day"
+      "reason": "Net buy reversed: 0.03M \u2192 -0.85M | OBV -0.4M/day"
     },
     {
       "ticker": "PEG",
       "price": 74.11000061035156,
       "net_buy_d2": -25242,
-      "net_buy_d3": -758784,
-      "obv_slope": -915324,
+      "net_buy_d3": -758865,
+      "obv_slope": -915368,
       "score": 0.0,
       "reason": "Net buy reversed: -0.03M \u2192 -0.76M | OBV -0.9M/day"
     },
@@ -147,10 +147,10 @@
       "ticker": "P",
       "price": 105.5,
       "net_buy_d2": 203666,
-      "net_buy_d3": -5651853,
-      "obv_slope": -1811200,
+      "net_buy_d3": -5663005,
+      "obv_slope": -1807980,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.20M \u2192 -5.65M | OBV -1.8M/day"
+      "reason": "Net buy reversed: 0.20M \u2192 -5.66M | OBV -1.8M/day"
     }
   ]
 }
