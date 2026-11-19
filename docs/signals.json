@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T22:29:54.074763+00:00",
+  "timestamp": "2026-11-19T22:58:44.678443+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -29,8 +29,8 @@
     {
       "ticker": "AAPL",
       "action": "HOLD",
-      "price": 349.1000061035156,
-      "rsi": 38.65,
+      "price": 349.1099853515625,
+      "rsi": 38.67,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
@@ -52,7 +52,7 @@
       "ticker": "NVDA",
       "action": "BUY",
       "price": 146.0,
-      "rsi": 26.38,
+      "rsi": 26.39,
       "ema_trend": "BEARISH",
       "vwap_bias": "BELOW",
       "confidence": 2,
@@ -102,10 +102,10 @@
       "ticker": "TTWO",
       "price": 208.64999389648438,
       "net_buy_d2": 69925,
-      "net_buy_d3": -7881438,
+      "net_buy_d3": -7834962,
       "obv_slope": -1091610,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.07M \u2192 -7.88M | OBV -1.1M/day"
+      "reason": "Net buy reversed: 0.07M \u2192 -7.83M | OBV -1.1M/day"
     },
     {
       "ticker": "PYPL",
