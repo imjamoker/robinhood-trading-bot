@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T22:34:24.650008+00:00",
+  "timestamp": "2026-11-20T22:57:34.496836+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -66,35 +66,35 @@
       "ticker": "NOC",
       "price": 534.3099975585938,
       "net_buy_d2": 2396,
-      "net_buy_d3": -613954,
-      "obv_slope": -517706,
+      "net_buy_d3": -636497,
+      "obv_slope": -523102,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.00M \u2192 -0.61M | OBV -0.5M/day"
+      "reason": "Net buy reversed: 0.00M \u2192 -0.64M | OBV -0.5M/day"
     },
     {
       "ticker": "AEE",
       "price": 111.93000030517578,
       "net_buy_d2": 13887,
-      "net_buy_d3": -1684208,
+      "net_buy_d3": -1686590,
       "obv_slope": -10884,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.01M \u2192 -1.68M | OBV -0.0M/day"
+      "reason": "Net buy reversed: 0.01M \u2192 -1.69M | OBV -0.0M/day"
     },
     {
       "ticker": "INVH",
       "price": 26.229999542236328,
       "net_buy_d2": 76058,
-      "net_buy_d3": -7644323,
-      "obv_slope": -2785580,
+      "net_buy_d3": -7648982,
+      "obv_slope": -2784486,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.08M \u2192 -7.64M | OBV -2.8M/day"
+      "reason": "Net buy reversed: 0.08M \u2192 -7.65M | OBV -2.8M/day"
     },
     {
       "ticker": "MRSH",
       "price": 206.22000122070312,
       "net_buy_d2": 37867,
-      "net_buy_d3": -2539834,
-      "obv_slope": -705144,
+      "net_buy_d3": -2535212,
+      "obv_slope": -704912,
       "score": 0.0,
       "reason": "Net buy reversed: 0.04M \u2192 -2.54M | OBV -0.7M/day"
     },
@@ -111,26 +111,26 @@
       "ticker": "SPGI",
       "price": 439.57000732421875,
       "net_buy_d2": -36291,
-      "net_buy_d3": -1542663,
-      "obv_slope": -1191179,
+      "net_buy_d3": -1663706,
+      "obv_slope": -1222078,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.04M \u2192 -1.54M | OBV -1.2M/day"
+      "reason": "Net buy reversed: -0.04M \u2192 -1.66M | OBV -1.2M/day"
     },
     {
       "ticker": "RSG",
       "price": 246.58999633789062,
       "net_buy_d2": 31720,
-      "net_buy_d3": -1165622,
-      "obv_slope": -846859,
+      "net_buy_d3": -1180214,
+      "obv_slope": -840608,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.03M \u2192 -1.17M | OBV -0.8M/day"
+      "reason": "Net buy reversed: 0.03M \u2192 -1.18M | OBV -0.8M/day"
     },
     {
       "ticker": "BF-B",
       "price": 29.920000076293945,
       "net_buy_d2": 52494,
-      "net_buy_d3": -1888138,
-      "obv_slope": -927024,
+      "net_buy_d3": -1891738,
+      "obv_slope": -927036,
       "score": 0.0,
       "reason": "Net buy reversed: 0.05M \u2192 -1.89M | OBV -0.9M/day"
     },
@@ -138,19 +138,19 @@
       "ticker": "MCK",
       "price": 1069.4300537109375,
       "net_buy_d2": -18360,
-      "net_buy_d3": -644419,
-      "obv_slope": -372874,
+      "net_buy_d3": -665203,
+      "obv_slope": -358720,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.02M \u2192 -0.64M | OBV -0.4M/day"
+      "reason": "Net buy reversed: -0.02M \u2192 -0.67M | OBV -0.4M/day"
     },
     {
       "ticker": "SOLV",
       "price": 84.5,
       "net_buy_d2": 16570,
-      "net_buy_d3": -474871,
-      "obv_slope": -321300,
+      "net_buy_d3": -494867,
+      "obv_slope": -326620,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.02M \u2192 -0.47M | OBV -0.3M/day"
+      "reason": "Net buy reversed: 0.02M \u2192 -0.49M | OBV -0.3M/day"
     }
   ]
 }
