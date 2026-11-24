@@ -1,156 +1,120 @@
 {
-  "timestamp": "2026-11-21T01:17:08.553816+00:00",
+  "timestamp": "2026-11-24T01:28:53.209819+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
   "rsi_signals": [
     {
       "ticker": "SPY",
-      "action": "BUY",
-      "price": 690.9099731445312,
-      "rsi": 9.6,
-      "ema_trend": "BEARISH",
-      "vwap_bias": "BELOW",
-      "confidence": 2,
-      "atr_pct": 0.0098,
-      "reason": "RSI oversold (9.6) | price below VWAP"
+      "action": "HOLD",
+      "price": 722.3900146484375,
+      "rsi": 52.15,
+      "ema_trend": "NEUTRAL",
+      "vwap_bias": "AT",
+      "confidence": 0,
+      "atr_pct": 0.0099,
+      "reason": "RSI=52.2, trend=NEUTRAL, VWAP=AT"
     },
     {
       "ticker": "QQQ",
-      "action": "BUY",
-      "price": 610.04248046875,
-      "rsi": 14.94,
-      "ema_trend": "BEARISH",
-      "vwap_bias": "BELOW",
-      "confidence": 2,
-      "atr_pct": 0.0131,
-      "reason": "RSI oversold (14.9) | price below VWAP"
+      "action": "HOLD",
+      "price": 650.8699951171875,
+      "rsi": 53.52,
+      "ema_trend": "BULLISH",
+      "vwap_bias": "AT",
+      "confidence": 0,
+      "atr_pct": 0.0133,
+      "reason": "RSI=53.5, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "AAPL",
-      "action": "BUY",
-      "price": 342.67999267578125,
-      "rsi": 23.69,
-      "ema_trend": "BEARISH",
-      "vwap_bias": "BELOW",
-      "confidence": 2,
+      "action": "HOLD",
+      "price": 349.69000244140625,
+      "rsi": 51.27,
+      "ema_trend": "NEUTRAL",
+      "vwap_bias": "AT",
+      "confidence": 0,
       "atr_pct": 0.0089,
-      "reason": "RSI oversold (23.7) | price below VWAP"
+      "reason": "RSI=51.3, trend=NEUTRAL, VWAP=AT"
     },
     {
       "ticker": "MSFT",
-      "action": "BUY",
-      "price": 485.010009765625,
-      "rsi": 27.49,
+      "action": "HOLD",
+      "price": 492.9700012207031,
+      "rsi": 42.22,
       "ema_trend": "BEARISH",
       "vwap_bias": "BELOW",
-      "confidence": 2,
-      "atr_pct": 0.012,
-      "reason": "RSI oversold (27.5) | price below VWAP"
+      "confidence": 0,
+      "atr_pct": 0.0124,
+      "reason": "RSI=42.2, trend=BEARISH, VWAP=BELOW"
     },
     {
       "ticker": "NVDA",
-      "action": "BUY",
-      "price": 125.79000091552734,
-      "rsi": 11.36,
-      "ema_trend": "BEARISH",
-      "vwap_bias": "BELOW",
-      "confidence": 2,
-      "atr_pct": 0.0296,
-      "reason": "RSI oversold (11.4) | price below VWAP"
+      "action": "HOLD",
+      "price": 165.18499755859375,
+      "rsi": 62.4,
+      "ema_trend": "BULLISH",
+      "vwap_bias": "AT",
+      "confidence": 0,
+      "atr_pct": 0.0349,
+      "reason": "ATR too high (3.5%) \u2014 skipping"
     }
   ],
   "net_buy_buy_signals": [],
   "net_buy_sell_signals": [
     {
-      "ticker": "T",
+      "ticker": "APA",
       "price": NaN,
-      "net_buy_d2": 21811132,
+      "net_buy_d2": 1164139,
       "net_buy_d3": 0,
-      "obv_slope": -33547180,
+      "obv_slope": -1345220,
       "score": 0.0,
-      "reason": "Net buy reversed: 21.81M \u2192 0.00M | OBV -33.5M/day"
+      "reason": "Net buy reversed: 1.16M \u2192 0.00M | OBV -1.3M/day"
     },
     {
-      "ticker": "WMT",
+      "ticker": "HCA",
       "price": NaN,
-      "net_buy_d2": 16320206,
+      "net_buy_d2": 763978,
       "net_buy_d3": 0,
-      "obv_slope": -22043860,
+      "obv_slope": -271970,
       "score": 0.0,
-      "reason": "Net buy reversed: 16.32M \u2192 0.00M | OBV -22.0M/day"
+      "reason": "Net buy reversed: 0.76M \u2192 0.00M | OBV -0.3M/day"
     },
     {
-      "ticker": "KO",
+      "ticker": "VEEV",
       "price": NaN,
-      "net_buy_d2": 9101047,
+      "net_buy_d2": 697974,
       "net_buy_d3": 0,
-      "obv_slope": -15693960,
+      "obv_slope": -964450,
       "score": 0.0,
-      "reason": "Net buy reversed: 9.10M \u2192 0.00M | OBV -15.7M/day"
+      "reason": "Net buy reversed: 0.70M \u2192 0.00M | OBV -1.0M/day"
     },
     {
-      "ticker": "VZ",
+      "ticker": "UHS",
       "price": NaN,
-      "net_buy_d2": 8168325,
+      "net_buy_d2": 317494,
       "net_buy_d3": 0,
-      "obv_slope": -4465830,
+      "obv_slope": -87280,
       "score": 0.0,
-      "reason": "Net buy reversed: 8.17M \u2192 0.00M | OBV -4.5M/day"
+      "reason": "Net buy reversed: 0.32M \u2192 0.00M | OBV -0.1M/day"
     },
     {
-      "ticker": "MDLZ",
+      "ticker": "DVA",
       "price": NaN,
-      "net_buy_d2": 6921048,
+      "net_buy_d2": 235800,
       "net_buy_d3": 0,
-      "obv_slope": -8954330,
+      "obv_slope": -364020,
       "score": 0.0,
-      "reason": "Net buy reversed: 6.92M \u2192 0.00M | OBV -9.0M/day"
+      "reason": "Net buy reversed: 0.24M \u2192 0.00M | OBV -0.4M/day"
     },
     {
-      "ticker": "GIS",
+      "ticker": "SBAC",
       "price": NaN,
-      "net_buy_d2": 6436223,
+      "net_buy_d2": 35833,
       "net_buy_d3": 0,
-      "obv_slope": -5544130,
+      "obv_slope": -238940,
       "score": 0.0,
-      "reason": "Net buy reversed: 6.44M \u2192 0.00M | OBV -5.5M/day"
-    },
-    {
-      "ticker": "F",
-      "price": NaN,
-      "net_buy_d2": 5193057,
-      "net_buy_d3": 0,
-      "obv_slope": -33151480,
-      "score": 0.0,
-      "reason": "Net buy reversed: 5.19M \u2192 0.00M | OBV -33.2M/day"
-    },
-    {
-      "ticker": "MOS",
-      "price": NaN,
-      "net_buy_d2": 5152085,
-      "net_buy_d3": 0,
-      "obv_slope": -6173220,
-      "score": 0.0,
-      "reason": "Net buy reversed: 5.15M \u2192 0.00M | OBV -6.2M/day"
-    },
-    {
-      "ticker": "ROL",
-      "price": NaN,
-      "net_buy_d2": 5112362,
-      "net_buy_d3": 0,
-      "obv_slope": -496100,
-      "score": 0.0,
-      "reason": "Net buy reversed: 5.11M \u2192 0.00M | OBV -0.5M/day"
-    },
-    {
-      "ticker": "MCD",
-      "price": NaN,
-      "net_buy_d2": 5063366,
-      "net_buy_d3": 0,
-      "obv_slope": -2351710,
-      "score": 0.0,
-      "reason": "Net buy reversed: 5.06M \u2192 0.00M | OBV -2.4M/day"
+      "reason": "Net buy reversed: 0.04M \u2192 0.00M | OBV -0.2M/day"
     }
   ]
 }
