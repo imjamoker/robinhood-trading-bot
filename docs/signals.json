@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T23:23:04.873699+00:00",
+  "timestamp": "2026-11-24T23:40:58.851575+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -30,12 +30,12 @@
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 354.19000244140625,
-      "rsi": 61.05,
+      "rsi": 61.01,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
       "atr_pct": 0.0077,
-      "reason": "RSI=61.1, trend=BULLISH, VWAP=AT"
+      "reason": "RSI=61.0, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "MSFT",
@@ -51,8 +51,8 @@
     {
       "ticker": "NVDA",
       "action": "HOLD",
-      "price": 155.47000122070312,
-      "rsi": 52.38,
+      "price": 155.47999572753906,
+      "rsi": 52.39,
       "ema_trend": "BULLISH",
       "vwap_bias": "ABOVE",
       "confidence": 0,
@@ -131,10 +131,10 @@
       "ticker": "HPE",
       "price": 40.189998626708984,
       "net_buy_d2": -1357323,
-      "net_buy_d3": -21552494,
+      "net_buy_d3": -21670708,
       "obv_slope": -4864632,
       "score": 0.0,
-      "reason": "Net buy reversed: -1.36M \u2192 -21.55M | OBV -4.9M/day"
+      "reason": "Net buy reversed: -1.36M \u2192 -21.67M | OBV -4.9M/day"
     },
     {
       "ticker": "DDOG",
