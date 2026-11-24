@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T01:57:03.451164+00:00",
+  "timestamp": "2026-11-24T02:50:01.447101+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -63,58 +63,94 @@
   "net_buy_buy_signals": [],
   "net_buy_sell_signals": [
     {
-      "ticker": "APA",
-      "price": NaN,
-      "net_buy_d2": 1164139,
-      "net_buy_d3": 0,
-      "obv_slope": -1345220,
+      "ticker": "SBAC",
+      "price": 171.0,
+      "net_buy_d2": 35833,
+      "net_buy_d3": -721472,
+      "obv_slope": -417100,
       "score": 0.0,
-      "reason": "Net buy reversed: 1.16M \u2192 0.00M | OBV -1.3M/day"
+      "reason": "Net buy reversed: 0.04M \u2192 -0.72M | OBV -0.4M/day"
     },
     {
-      "ticker": "HCA",
-      "price": NaN,
-      "net_buy_d2": 763978,
-      "net_buy_d3": 0,
-      "obv_slope": -271970,
+      "ticker": "XOM",
+      "price": 156.89999389648438,
+      "net_buy_d2": -956503,
+      "net_buy_d3": -12410785,
+      "obv_slope": -4633370,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.76M \u2192 0.00M | OBV -0.3M/day"
+      "reason": "Net buy reversed: -0.96M \u2192 -12.41M | OBV -4.6M/day"
+    },
+    {
+      "ticker": "AMT",
+      "price": 179.30999755859375,
+      "net_buy_d2": -268665,
+      "net_buy_d3": -2641522,
+      "obv_slope": -219670,
+      "score": 0.0,
+      "reason": "Net buy reversed: -0.27M \u2192 -2.64M | OBV -0.2M/day"
+    },
+    {
+      "ticker": "APA",
+      "price": 44.060001373291016,
+      "net_buy_d2": 1164139,
+      "net_buy_d3": -2442356,
+      "obv_slope": -2551140,
+      "score": 0.0,
+      "reason": "Net buy reversed: 1.16M \u2192 -2.44M | OBV -2.6M/day"
     },
     {
       "ticker": "VEEV",
-      "price": NaN,
+      "price": 268.6499938964844,
       "net_buy_d2": 697974,
-      "net_buy_d3": 0,
-      "obv_slope": -964450,
+      "net_buy_d3": -1345675,
+      "obv_slope": -682630,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.70M \u2192 0.00M | OBV -1.0M/day"
+      "reason": "Net buy reversed: 0.70M \u2192 -1.35M | OBV -0.7M/day"
     },
     {
-      "ticker": "UHS",
-      "price": NaN,
-      "net_buy_d2": 317494,
-      "net_buy_d3": 0,
-      "obv_slope": -87280,
+      "ticker": "TPL",
+      "price": 258.07000732421875,
+      "net_buy_d2": -449371,
+      "net_buy_d3": -985376,
+      "obv_slope": -662960,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.32M \u2192 0.00M | OBV -0.1M/day"
+      "reason": "Net buy reversed: -0.45M \u2192 -0.99M | OBV -0.7M/day"
     },
     {
-      "ticker": "DVA",
-      "price": NaN,
-      "net_buy_d2": 235800,
-      "net_buy_d3": 0,
-      "obv_slope": -364020,
+      "ticker": "BBY",
+      "price": 97.0,
+      "net_buy_d2": -2089187,
+      "net_buy_d3": -4294722,
+      "obv_slope": -2250110,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.24M \u2192 0.00M | OBV -0.4M/day"
+      "reason": "Net buy reversed: -2.09M \u2192 -4.29M | OBV -2.3M/day"
     },
     {
-      "ticker": "SBAC",
-      "price": NaN,
-      "net_buy_d2": 35833,
-      "net_buy_d3": 0,
-      "obv_slope": -238940,
+      "ticker": "HCA",
+      "price": 479.9599914550781,
+      "net_buy_d2": 763978,
+      "net_buy_d3": 172266,
+      "obv_slope": -42910,
       "score": 0.0,
-      "reason": "Net buy reversed: 0.04M \u2192 0.00M | OBV -0.2M/day"
+      "reason": "Net buy reversed: 0.76M \u2192 0.17M | OBV -0.0M/day"
+    },
+    {
+      "ticker": "IP",
+      "price": 28.979999542236328,
+      "net_buy_d2": -7249073,
+      "net_buy_d3": -11902962,
+      "obv_slope": -5739330,
+      "score": 0.0,
+      "reason": "Net buy reversed: -7.25M \u2192 -11.90M | OBV -5.7M/day"
+    },
+    {
+      "ticker": "BKNG",
+      "price": 144.94000244140625,
+      "net_buy_d2": -5876261,
+      "net_buy_d3": -9534374,
+      "obv_slope": -3215830,
+      "score": 0.0,
+      "reason": "Net buy reversed: -5.88M \u2192 -9.53M | OBV -3.2M/day"
     }
   ]
 }
