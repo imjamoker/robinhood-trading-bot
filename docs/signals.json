@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25T22:56:27.023401+00:00",
+  "timestamp": "2026-11-25T23:24:23.650107+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7,8 +7,8 @@
     {
       "ticker": "SPY",
       "action": "SELL",
-      "price": 716.760009765625,
-      "rsi": 50.85,
+      "price": 716.7100219726562,
+      "rsi": 50.81,
       "ema_trend": "BEARISH",
       "vwap_bias": "ABOVE",
       "confidence": 2,
@@ -30,7 +30,7 @@
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 355.44500732421875,
-      "rsi": 58.78,
+      "rsi": 58.76,
       "ema_trend": "BULLISH",
       "vwap_bias": "ABOVE",
       "confidence": 0,
@@ -51,8 +51,8 @@
     {
       "ticker": "NVDA",
       "action": "SELL",
-      "price": 149.2899932861328,
-      "rsi": 48.23,
+      "price": 149.27000427246094,
+      "rsi": 48.2,
       "ema_trend": "BEARISH",
       "vwap_bias": "ABOVE",
       "confidence": 2,
@@ -187,11 +187,11 @@
       "price": 150.82000732421875,
       "net_buy_d1": -694651,
       "net_buy_d2": -339069,
-      "net_buy_d3": 561404,
+      "net_buy_d3": 584865,
       "trend_days": 4,
       "obv_slope": 154259,
       "score": 40.15,
-      "reason": "Net buy \u2191 4d streak: -0.69M \u2192 -0.34M \u2192 0.56M | OBV +0.2M/day"
+      "reason": "Net buy \u2191 4d streak: -0.69M \u2192 -0.34M \u2192 0.58M | OBV +0.2M/day"
     },
     {
       "ticker": "KEY",
@@ -287,10 +287,10 @@
       "ticker": "TECH",
       "price": 72.6500015258789,
       "net_buy_d2": -669734,
-      "net_buy_d3": -7062986,
+      "net_buy_d3": -7490808,
       "obv_slope": -81627,
       "score": 0.0,
-      "reason": "Net buy reversed: -0.67M \u2192 -7.06M | OBV -0.1M/day"
+      "reason": "Net buy reversed: -0.67M \u2192 -7.49M | OBV -0.1M/day"
     },
     {
       "ticker": "TXT",
