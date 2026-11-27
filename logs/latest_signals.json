@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T01:20:52.602561+00:00",
+  "timestamp": "2026-11-27T01:59:18.822590+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7,8 +7,8 @@
     {
       "ticker": "SPY",
       "action": "SELL",
-      "price": 716.7100219726562,
-      "rsi": 50.81,
+      "price": 716.760009765625,
+      "rsi": 50.85,
       "ema_trend": "BEARISH",
       "vwap_bias": "ABOVE",
       "confidence": 2,
@@ -30,7 +30,7 @@
       "ticker": "AAPL",
       "action": "HOLD",
       "price": 355.44500732421875,
-      "rsi": 58.76,
+      "rsi": 58.78,
       "ema_trend": "BULLISH",
       "vwap_bias": "ABOVE",
       "confidence": 0,
@@ -51,8 +51,8 @@
     {
       "ticker": "NVDA",
       "action": "SELL",
-      "price": 149.27000427246094,
-      "rsi": 48.2,
+      "price": 149.2899932861328,
+      "rsi": 48.23,
       "ema_trend": "BEARISH",
       "vwap_bias": "ABOVE",
       "confidence": 2,
