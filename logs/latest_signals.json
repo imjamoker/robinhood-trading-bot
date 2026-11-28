@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-28T01:43:37.356965+00:00",
+  "timestamp": "2026-11-28T02:34:05.213618+00:00",
   "mode": "full_universe",
   "universe_size": 503,
   "market_open": false,
@@ -7,57 +7,57 @@
     {
       "ticker": "SPY",
       "action": "HOLD",
-      "price": 725.9199829101562,
-      "rsi": 57.89,
+      "price": 726.9190063476562,
+      "rsi": 59.02,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0078,
-      "reason": "RSI=57.9, trend=BULLISH, VWAP=AT"
+      "atr_pct": 0.0087,
+      "reason": "RSI=59.0, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "QQQ",
       "action": "HOLD",
-      "price": 650.760009765625,
-      "rsi": 59.15,
+      "price": 646.9099731445312,
+      "rsi": 56.85,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0118,
-      "reason": "RSI=59.1, trend=BULLISH, VWAP=AT"
+      "atr_pct": 0.0123,
+      "reason": "RSI=56.8, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "AAPL",
       "action": "HOLD",
-      "price": 358.70001220703125,
-      "rsi": 62.7,
+      "price": 357.989990234375,
+      "rsi": 61.54,
       "ema_trend": "BULLISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0079,
-      "reason": "RSI=62.7, trend=BULLISH, VWAP=AT"
+      "atr_pct": 0.0085,
+      "reason": "RSI=61.5, trend=BULLISH, VWAP=AT"
     },
     {
       "ticker": "MSFT",
       "action": "HOLD",
-      "price": 493.3800048828125,
-      "rsi": 50.2,
+      "price": 491.6600036621094,
+      "rsi": 48.0,
       "ema_trend": "BEARISH",
       "vwap_bias": "AT",
       "confidence": 0,
-      "atr_pct": 0.0107,
-      "reason": "RSI=50.2, trend=BEARISH, VWAP=AT"
+      "atr_pct": 0.0115,
+      "reason": "RSI=48.0, trend=BEARISH, VWAP=AT"
     },
     {
       "ticker": "NVDA",
-      "action": "SELL",
-      "price": 150.6199951171875,
-      "rsi": 50.6,
+      "action": "HOLD",
+      "price": 149.35000610351562,
+      "rsi": 48.77,
       "ema_trend": "BEARISH",
-      "vwap_bias": "ABOVE",
-      "confidence": 2,
-      "atr_pct": 0.024,
-      "reason": "price above VWAP | EMA bearish crossover"
+      "vwap_bias": "AT",
+      "confidence": 0,
+      "atr_pct": 0.0255,
+      "reason": "RSI=48.8, trend=BEARISH, VWAP=AT"
     }
   ],
   "net_buy_buy_signals": [
